@@ -1,0 +1,9 @@
+import {Icon} from "../Icon.js";
+
+export class UnfoldHorizontal extends Icon {
+    public constructor() {
+        super(Icon.from(
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12H22M8 12H2M12 2V4M12 8V10M12 14V16M12 20V22M19 15 22 12 19 9M5 9 2 12 5 15"/></svg>`
+        ).node);
+    }
+}

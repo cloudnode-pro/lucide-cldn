@@ -1,0 +1,9 @@
+import {Icon} from "../Icon.js";
+
+export class StarHalf extends Icon {
+    public constructor() {
+        super(Icon.from(
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 18.3 11 18.6 6.4 21A.5.5 0 0 1 5.6 20.5L6.6 15.3A2 2 0 0 0 5.8 13.4L2.2 9.8A.5.5 0 0 1 2.5 8.8L7.6 8.2A2 2 0 0 0 9.2 7L11.5 2.3 12 2"/></svg>`
+        ).node);
+    }
+}

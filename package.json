@@ -1,0 +1,41 @@
+{
+  "name": "lucide-cldn",
+  "version": "0.503.0",
+  "description": "Lucide icon library for @cldn/components applications.",
+  "keywords": [
+    "lucide",
+    "@cldn/components",
+    "icons",
+    "icon",
+    "svg",
+    "components"
+  ],
+  "homepage": "https://github.com/cloudnode-pro/lucide-cldn#readme",
+  "bugs": {
+    "url": "https://github.com/cloudnode-pro/lucide-cldn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudnode-pro/lucide-cldn.git"
+  },
+  "license": "LGPL-3.0",
+  "author": "Cloudnode OÜ",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p src",
+    "build:gen": "tsc -p gen",
+    "gen": "node dist-gen/index.js"
+  },
+  "peerDependencies": {
+    "@cldn/components": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "svgo": "^3.3.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
