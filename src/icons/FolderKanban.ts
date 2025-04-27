@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 20H20A2 2 0 0 0 22 18V8A2 2 0 0 0 20 6H12A2 2 0 0 1 10.5 5.1L9.6 3.9A2 2 0 0 0 7.9 3H4A2 2 0 0 0 2 5V18Q2.2 19.8 4 20M8 10V14M12 10V12M16 10V16"/></svg>
+ */
 export class FolderKanban extends Icon {
     public constructor() {
         super(Icon.from(

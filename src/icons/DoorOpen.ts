@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 4H16A2 2 0 0 1 18 6V20M2 20H5M13 20H22M10 12"/><path d="M13 4.6V20.7A1 1 0 0 1 11.8 21.7L5 20V5.6A2 2 0 0 1 6.5 3.6L10.5 2.6A2 2 0 0 1 13 4.6"/></svg>
+ */
 export class DoorOpen extends Icon {
     public constructor() {
         super(Icon.from(

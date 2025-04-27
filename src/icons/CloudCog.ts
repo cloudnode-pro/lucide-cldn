@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.9 19.8 10.5 20.7M13.1 14.2 13.5 13.3M13.1 19.8A3 3 0 1 0 11 14.2L10.5 13.3"/><path d="M13.5 20.7 13.1 19.7A3 3 0 1 1 11 14.3M14.8 15.9 15.7 15.5M14.8 18.1 15.7 18.5"/><path d="M4.2 15.1A7 7 0 1 1 14.2 5.2 7 7 0 0 1 15.6 8H17.5A4.5 4.5 0 0 1 20 16.2M9.2 15.9 8.3 15.5M9.2 18.1 8.3 18.5"/></svg>
+ */
 export class CloudCog extends Icon {
     public constructor() {
         super(Icon.from(
