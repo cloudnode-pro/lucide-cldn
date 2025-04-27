@@ -527,7 +527,6 @@ export { Dog } from "./Dog.js";
 export { DollarSign } from "./DollarSign.js";
 export { Donut } from "./Donut.js";
 export { DoorClosed } from "./DoorClosed.js";
-export { DoorClosedLocked } from "./DoorClosedLocked.js";
 export { DoorOpen } from "./DoorOpen.js";
 export { Dot } from "./Dot.js";
 export { Download } from "./Download.js";
