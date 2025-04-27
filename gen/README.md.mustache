@@ -2,11 +2,13 @@
   applications.</p>
 
 <p align="center">
-
-  [![npm](https://img.shields.io/npm/v/lucide-cldn?color=blue)](https://www.npmjs.com/package/lucide-cldn)
-  ![NPM Downloads](https://img.shields.io/npm/d18m/lucide-cldn)
-  [![GitHub](https://img.shields.io/github/license/cloudnode-pro/lucide-cldn)](https://github.com/cloudnode-pro/lucide-cldn/blob/master/COPYING)
-
+  <a href="https://www.npmjs.com/package/lucide-cldn">
+    <img src="https://img.shields.io/npm/v/lucide-cldn?color=blue" alt="npm">
+  </a>
+  <img src="https://img.shields.io/npm/d18m/lucide-cldn" alt="NPM Downloads">
+  <a href="https://github.com/cloudnode-pro/lucide-cldn/blob/master/COPYING">
+    <img src="https://img.shields.io/github/license/cloudnode-pro/lucide-cldn" alt="Licence">
+  </a>
 </p>
 
 <p align="center">
