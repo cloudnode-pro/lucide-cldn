@@ -23,7 +23,7 @@ export async function generateReadme() {
     await fs.writeFile(
         "README.md",
         Handlebars.compile(
-            await fs.readFile(path.join("README.md.mustache"), "utf8"),
+            await fs.readFile(path.join("gen", "README.md.mustache"), "utf8"),
             {noEscape: true},
         )({
             lucideLicence: lucideLicence.replace(/[\r\n]+$/, ""),
