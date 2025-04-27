@@ -21,5 +21,5 @@ export async function generateIcons() {
     });
 
     await Promise.all(workers);
-    return results;
+    return results.sort((a, b) => a.localeCompare(b));
 }
