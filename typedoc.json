@@ -1,0 +1,11 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["src"],
+  "tsconfig": "src/tsconfig.json",
+  "out": "docs",
+  "darkHighlightTheme": "aurora-x",
+  "lightHighlightTheme": "catppuccin-latte",
+  "includeVersion": true,
+  "githubPages": true,
+  "customFooterHtml": "Copyright © 2025 Cloudnode OÜ. Licensed under the LGPL-3.0."
+}

@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12.1" cy="12.1" r="1"/></svg>
+ */
 export class Dot extends Icon {
     public constructor() {
         super(Icon.from(

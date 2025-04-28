@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 17 15 12 20 7M4 17 9 12 4 7"/></svg>
+ */
 export class ChevronsRightLeft extends Icon {
     public constructor() {
         super(Icon.from(
