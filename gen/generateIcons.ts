@@ -19,6 +19,8 @@ import path from "node:path";
 import {generateIcon} from "./generateIcon.js";
 
 export async function generateIcons() {
+    await fs.rm(path.join("src", "icons"), {recursive: true, force: true});
+    await fs.mkdir(path.join("src", "icons"), {recursive: true});
     const dir = path.join("lucide", "icons");
     const files = (await fs.readdir(dir, {withFileTypes: true}))
         .filter(de => de.isFile() && path.extname(de.name) === ".svg")
