@@ -1,6 +1,6 @@
 {
   "name": "lucide-cldn",
-  "version": "0.503.0",
+  "version": "0.0.0-dev",
   "description": "Lucide icon library for @cldn/components applications.",
   "keywords": [
     "lucide",
@@ -22,6 +22,12 @@
   "author": "Cloudnode OÜ",
   "type": "module",
   "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**.js",
+    "dist/**.d.ts"
+  ],
   "scripts": {
     "build": "tsc -p src",
     "build:gen": "tsc -p gen",
@@ -32,7 +38,7 @@
     "@cldn/components": "^4.1.0"
   },
   "devDependencies": {
-    "@types/node": "^22.15.2",
+    "@types/node": "^22.15.3",
     "svgo": "^3.3.2",
     "typedoc": "^0.28.3",
     "typescript": "^5.8.3"
