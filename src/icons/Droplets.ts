@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M7 16.3A4 4 0 0 0 11 12.3Q11 10.5 9.3 9A5 5 0 0 1 7 5.3Q6.5 7.6 4.7 9.1C3 10.6 3 11 3 12.3A4 4 0 0 0 7 16.3"/><path d="M12.6 6.6A11 11 0 0 0 14 3C14.5 5.5 16 8 18 9.5S21 13 21 15A7 7 0 0 1 9 20"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05"/><path d="M12.56 6.6A11 11 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/></svg>
  */
 export class Droplets extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M7 16.3A4 4 0 0 0 11 12.3Q11 10.5 9.3 9A5 5 0 0 1 7 5.3Q6.5 7.6 4.7 9.1C3 10.6 3 11 3 12.3A4 4 0 0 0 7 16.3"/><path d="M12.6 6.6A11 11 0 0 0 14 3C14.5 5.5 16 8 18 9.5S21 13 21 15A7 7 0 0 1 9 20"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05"/><path d="M12.56 6.6A11 11 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"/></svg>`
         ).node);
     }
 }

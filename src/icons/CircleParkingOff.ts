@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M5 5 19 19M13 13A3 3 0 1 0 13 7H9V9M9 17V14.7"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m5 5 14 14m-6-6a3 3 0 1 0 0-6H9v2m0 8v-2.34"/></svg>
  */
 export class CircleParkingOff extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M5 5 19 19M13 13A3 3 0 1 0 13 7H9V9M9 17V14.7"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m5 5 14 14m-6-6a3 3 0 1 0 0-6H9v2m0 8v-2.34"/></svg>`
         ).node);
     }
 }

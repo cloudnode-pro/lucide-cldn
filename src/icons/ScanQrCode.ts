@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 12V16A1 1 0 0 1 16 17H12M17 3H19A2 2 0 0 1 21 5V7M17 8V7M21 17V19A2 2 0 0 1 19 21H17M3 7V5A2 2 0 0 1 5 3H7M7 21H5A2 2 0 0 1 3 19V17"/><rect width="5" height="5" x="7" y="7" rx="1"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 12v4a1 1 0 0 1-1 1h-4m5-14h2a2 2 0 0 1 2 2v2m-4 1V7m4 10v2a2 2 0 0 1-2 2h-2M3 7V5a2 2 0 0 1 2-2h2m0 14h.01M7 21H5a2 2 0 0 1-2-2v-2"/><rect width="5" height="5" x="7" y="7" rx="1"/></svg>
  */
 export class ScanQrCode extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 12V16A1 1 0 0 1 16 17H12M17 3H19A2 2 0 0 1 21 5V7M17 8V7M21 17V19A2 2 0 0 1 19 21H17M3 7V5A2 2 0 0 1 5 3H7M7 21H5A2 2 0 0 1 3 19V17"/><rect width="5" height="5" x="7" y="7" rx="1"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 12v4a1 1 0 0 1-1 1h-4m5-14h2a2 2 0 0 1 2 2v2m-4 1V7m4 10v2a2 2 0 0 1-2 2h-2M3 7V5a2 2 0 0 1 2-2h2m0 14h.01M7 21H5a2 2 0 0 1-2-2v-2"/><rect width="5" height="5" x="7" y="7" rx="1"/></svg>`
         ).node);
     }
 }

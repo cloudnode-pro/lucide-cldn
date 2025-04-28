@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 13V21M12 3V6M18 6A2 2 0 0 1 19.4 6.6L21.7 8.8A1 1 0 0 1 21.7 10.2L19.4 12.4A2 2 0 0 1 18 13H6A2 2 0 0 1 4.6 12.4L2.3 10.2A1 1 0 0 1 2.3 8.8L4.6 6.6A2 2 0 0 1 6 6z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 13v8m0-18v3m6 0a2 2 0 0 1 1.387.56l2.307 2.22a1 1 0 0 1 0 1.44l-2.307 2.22A2 2 0 0 1 18 13H6a2 2 0 0 1-1.387-.56l-2.306-2.22a1 1 0 0 1 0-1.44l2.306-2.22A2 2 0 0 1 6 6z"/></svg>
  */
 export class Signpost extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 13V21M12 3V6M18 6A2 2 0 0 1 19.4 6.6L21.7 8.8A1 1 0 0 1 21.7 10.2L19.4 12.4A2 2 0 0 1 18 13H6A2 2 0 0 1 4.6 12.4L2.3 10.2A1 1 0 0 1 2.3 8.8L4.6 6.6A2 2 0 0 1 6 6z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 13v8m0-18v3m6 0a2 2 0 0 1 1.387.56l2.307 2.22a1 1 0 0 1 0 1.44l-2.307 2.22A2 2 0 0 1 18 13H6a2 2 0 0 1-1.387-.56l-2.306-2.22a1 1 0 0 1 0-1.44l2.306-2.22A2 2 0 0 1 6 6z"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15.2 16.9 14.3 16.5M15.2 19.1 14.3 19.5M16 2V6M16.5 14.3 16.9 15.3M16.9 20.8 16.5 21.7M19.1 15.2 19.5 14.3M19.5 21.7 19.1 20.7M20.8 16.9 21.7 16.5M20.8 19.1 21.7 19.5M21 11V6A2 2 0 0 0 19 4H5A2 2 0 0 0 3 6V20A2 2 0 0 0 5 22H11M3 10H21M8 2V6"/><circle cx="18" cy="18" r="3"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m15.228 16.852-.923-.383m.923 2.679-.923.383M16 2v4m.47 8.305.382.923m0 5.544-.383.924m2.679-6.468.383-.923m-.001 7.391-.382-.924m1.624-3.92.924-.383m-.924 2.679.924.383M21 11V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6M3 10h18M8 2v4"/><circle cx="18" cy="18" r="3"/></svg>
  */
 export class CalendarCog extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15.2 16.9 14.3 16.5M15.2 19.1 14.3 19.5M16 2V6M16.5 14.3 16.9 15.3M16.9 20.8 16.5 21.7M19.1 15.2 19.5 14.3M19.5 21.7 19.1 20.7M20.8 16.9 21.7 16.5M20.8 19.1 21.7 19.5M21 11V6A2 2 0 0 0 19 4H5A2 2 0 0 0 3 6V20A2 2 0 0 0 5 22H11M3 10H21M8 2V6"/><circle cx="18" cy="18" r="3"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m15.228 16.852-.923-.383m.923 2.679-.923.383M16 2v4m.47 8.305.382.923m0 5.544-.383.924m2.679-6.468.383-.923m-.001 7.391-.382-.924m1.624-3.92.924-.383m-.924 2.679.924.383M21 11V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6M3 10h18M8 2v4"/><circle cx="18" cy="18" r="3"/></svg>`
         ).node);
     }
 }

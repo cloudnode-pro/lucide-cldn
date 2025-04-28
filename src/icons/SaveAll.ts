@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 2V5A1 1 0 0 0 11 6H16M18 18V12A1 1 0 0 0 17 11H11A1 1 0 0 0 10 12V18"/><path d="M18 22H4A2 2 0 0 1 2 20V6"/><path d="M8 18A2 2 0 0 1 6 16V4A2 2 0 0 1 8 2H17.2A2 2 0 0 1 18.6 2.6L21.4 5.4A2 2 0 0 1 22 6.8V16A2 2 0 0 1 20 18z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 2v3a1 1 0 0 0 1 1h5m2 12v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6"/><path d="M18 22H4a2 2 0 0 1-2-2V6"/><path d="M8 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9.172a2 2 0 0 1 1.414.586l2.828 2.828A2 2 0 0 1 22 6.828V16a2 2 0 0 1-2.01 2z"/></svg>
  */
 export class SaveAll extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 2V5A1 1 0 0 0 11 6H16M18 18V12A1 1 0 0 0 17 11H11A1 1 0 0 0 10 12V18"/><path d="M18 22H4A2 2 0 0 1 2 20V6"/><path d="M8 18A2 2 0 0 1 6 16V4A2 2 0 0 1 8 2H17.2A2 2 0 0 1 18.6 2.6L21.4 5.4A2 2 0 0 1 22 6.8V16A2 2 0 0 1 20 18z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 2v3a1 1 0 0 0 1 1h5m2 12v-6a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v6"/><path d="M18 22H4a2 2 0 0 1-2-2V6"/><path d="M8 18a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9.172a2 2 0 0 1 1.414.586l2.828 2.828A2 2 0 0 1 22 6.828V16a2 2 0 0 1-2.01 2z"/></svg>`
         ).node);
     }
 }

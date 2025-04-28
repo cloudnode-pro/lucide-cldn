@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 6H18M12 16H18M3 3V19A2 2 0 0 0 5 21H21M8 11H15"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 6h8m-6 10h6M3 3v16a2 2 0 0 0 2 2h16M8 11h7"/></svg>
  */
 export class ChartGantt extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 6H18M12 16H18M3 3V19A2 2 0 0 0 5 21H21M8 11H15"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 6h8m-6 10h6M3 3v16a2 2 0 0 0 2 2h16M8 11h7"/></svg>`
         ).node);
     }
 }

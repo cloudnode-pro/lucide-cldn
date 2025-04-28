@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22V13M15.2 2.2A2 2 0 0 1 16.8 2.2L21 4.6A2 2 0 0 1 21 7.9L8.8 14.8A2 2 0 0 1 7.2 14.8L3 12.4A2 2 0 0 1 3 9.1z"/><path d="M20 13V16.9A2 2 0 0 1 18.9 18.7L12.9 21.7A2 2 0 0 1 11 21.8L5.1 18.8A2 2 0 0 1 4 16.9V13"/><path d="M21 12.4A2 2 0 0 0 21 9.1L8.8 2.2A2 2 0 0 0 7.2 2.2L3 4.6A2 2 0 0 0 3 7.9L15.2 14.8A2 2 0 0 0 16.8 14.8z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22v-9m3.17-10.79a1.67 1.67 0 0 1 1.63 0L21 4.57a1.93 1.93 0 0 1 0 3.36L8.82 14.79a1.66 1.66 0 0 1-1.64 0L3 12.43a1.93 1.93 0 0 1 0-3.36z"/><path d="M20 13v3.87a2.06 2.06 0 0 1-1.11 1.83l-6 3.08a1.93 1.93 0 0 1-1.78 0l-6-3.08A2.06 2.06 0 0 1 4 16.87V13"/><path d="M21 12.43a1.93 1.93 0 0 0 0-3.36L8.83 2.2a1.64 1.64 0 0 0-1.63 0L3 4.57a1.93 1.93 0 0 0 0 3.36l12.18 6.86a1.64 1.64 0 0 0 1.63 0z"/></svg>
  */
 export class PackageOpen extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22V13M15.2 2.2A2 2 0 0 1 16.8 2.2L21 4.6A2 2 0 0 1 21 7.9L8.8 14.8A2 2 0 0 1 7.2 14.8L3 12.4A2 2 0 0 1 3 9.1z"/><path d="M20 13V16.9A2 2 0 0 1 18.9 18.7L12.9 21.7A2 2 0 0 1 11 21.8L5.1 18.8A2 2 0 0 1 4 16.9V13"/><path d="M21 12.4A2 2 0 0 0 21 9.1L8.8 2.2A2 2 0 0 0 7.2 2.2L3 4.6A2 2 0 0 0 3 7.9L15.2 14.8A2 2 0 0 0 16.8 14.8z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22v-9m3.17-10.79a1.67 1.67 0 0 1 1.63 0L21 4.57a1.93 1.93 0 0 1 0 3.36L8.82 14.79a1.66 1.66 0 0 1-1.64 0L3 12.43a1.93 1.93 0 0 1 0-3.36z"/><path d="M20 13v3.87a2.06 2.06 0 0 1-1.11 1.83l-6 3.08a1.93 1.93 0 0 1-1.78 0l-6-3.08A2.06 2.06 0 0 1 4 16.87V13"/><path d="M21 12.43a1.93 1.93 0 0 0 0-3.36L8.83 2.2a1.64 1.64 0 0 0-1.63 0L3 4.57a1.93 1.93 0 0 0 0 3.36l12.18 6.86a1.64 1.64 0 0 0 1.63 0z"/></svg>`
         ).node);
     }
 }

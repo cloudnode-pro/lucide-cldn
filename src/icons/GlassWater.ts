@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.1 4.1A1 1 0 0 1 6.1 3H18A1 1 0 0 1 18.9 4.1L17.2 20.2A2 2 0 0 1 15.2 22H8.8A2 2 0 0 1 6.8 20.2z"/><path d="M6 12A5 5 0 0 1 12 12 5 5 0 0 0 18 12"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z"/><path d="M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0"/></svg>
  */
 export class GlassWater extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.1 4.1A1 1 0 0 1 6.1 3H18A1 1 0 0 1 18.9 4.1L17.2 20.2A2 2 0 0 1 15.2 22H8.8A2 2 0 0 1 6.8 20.2z"/><path d="M6 12A5 5 0 0 1 12 12 5 5 0 0 0 18 12"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z"/><path d="M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0"/></svg>`
         ).node);
     }
 }

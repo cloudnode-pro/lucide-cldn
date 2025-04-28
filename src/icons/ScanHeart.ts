@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11.2 16.7A1 1 0 0 0 12.8 16.7L16.3 12.6A2.8 2.8 0 1 0 12 9.2 2.8 2.8 0 1 0 7.7 12.6zM17 3H19A2 2 0 0 1 21 5V7M21 17V19A2 2 0 0 1 19 21H17M3 7V5A2 2 0 0 1 5 3H7M7 21H5A2 2 0 0 1 3 19V17"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11.246 16.657a1 1 0 0 0 1.508 0l3.57-4.101A2.75 2.75 0 1 0 12 9.168a2.75 2.75 0 1 0-4.324 3.388zM17 3h2a2 2 0 0 1 2 2v2m0 10v2a2 2 0 0 1-2 2h-2M3 7V5a2 2 0 0 1 2-2h2m0 18H5a2 2 0 0 1-2-2v-2"/></svg>
  */
 export class ScanHeart extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11.2 16.7A1 1 0 0 0 12.8 16.7L16.3 12.6A2.8 2.8 0 1 0 12 9.2 2.8 2.8 0 1 0 7.7 12.6zM17 3H19A2 2 0 0 1 21 5V7M21 17V19A2 2 0 0 1 19 21H17M3 7V5A2 2 0 0 1 5 3H7M7 21H5A2 2 0 0 1 3 19V17"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11.246 16.657a1 1 0 0 0 1.508 0l3.57-4.101A2.75 2.75 0 1 0 12 9.168a2.75 2.75 0 1 0-4.324 3.388zM17 3h2a2 2 0 0 1 2 2v2m0 10v2a2 2 0 0 1-2 2h-2M3 7V5a2 2 0 0 1 2-2h2m0 18H5a2 2 0 0 1-2-2v-2"/></svg>`
         ).node);
     }
 }

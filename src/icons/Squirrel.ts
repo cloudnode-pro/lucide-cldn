@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15.2 22A3 3 0 0 0 13 17"/><path d="M16 20A3 3 0 0 1 19 17H20A2 2 0 0 0 22 15V13A4 4 0 0 0 18 9V4M18 13"/><path d="M18 6A4 4 0 0 0 14 10 7 7 0 0 0 7 17C7 12 11 12 11 6.5A4.5 4.5 0 1 0 2 6.5 2.5 2.5 0 0 0 7 6.5C7 10 3 11 3 17A5 5 0 0 0 8 22H18"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15.236 22a3 3 0 0 0-2.2-5"/><path d="M16 20a3 3 0 0 1 3-3h1a2 2 0 0 0 2-2v-2a4 4 0 0 0-4-4V4m0 9h.01"/><path d="M18 6a4 4 0 0 0-4 4 7 7 0 0 0-7 7c0-5 4-5 4-10.5a4.5 4.5 0 1 0-9 0 2.5 2.5 0 0 0 5 0C7 10 3 11 3 17c0 2.8 2.2 5 5 5h10"/></svg>
  */
 export class Squirrel extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15.2 22A3 3 0 0 0 13 17"/><path d="M16 20A3 3 0 0 1 19 17H20A2 2 0 0 0 22 15V13A4 4 0 0 0 18 9V4M18 13"/><path d="M18 6A4 4 0 0 0 14 10 7 7 0 0 0 7 17C7 12 11 12 11 6.5A4.5 4.5 0 1 0 2 6.5 2.5 2.5 0 0 0 7 6.5C7 10 3 11 3 17A5 5 0 0 0 8 22H18"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15.236 22a3 3 0 0 0-2.2-5"/><path d="M16 20a3 3 0 0 1 3-3h1a2 2 0 0 0 2-2v-2a4 4 0 0 0-4-4V4m0 9h.01"/><path d="M18 6a4 4 0 0 0-4 4 7 7 0 0 0-7 7c0-5 4-5 4-10.5a4.5 4.5 0 1 0-9 0 2.5 2.5 0 0 0 5 0C7 10 3 11 3 17c0 2.8 2.2 5 5 5h10"/></svg>`
         ).node);
     }
 }

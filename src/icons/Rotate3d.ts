@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16.5 7.5C15.6 4.2 14 2 12 2 9.2 2 7 6.5 7 12S9.2 22 12 22L13 21.8M15.2 13.7 19 15.6 17.1 19.4"/><path d="M19 15.6Q16.2 17 12 17C6.5 17 2 14.8 2 12S6.5 7 12 7C16.8 7 20.9 8.7 21.8 11"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16.466 7.5C15.643 4.237 13.952 2 12 2 9.239 2 7 6.477 7 12s2.239 10 5 10q.514-.002 1-.2m2.194-8.093 3.814 1.86-1.86 3.814"/><path d="M19 15.57c-1.804.885-4.274 1.43-7 1.43-5.523 0-10-2.239-10-5s4.477-5 10-5c4.838 0 8.873 1.718 9.8 4"/></svg>
  */
 export class Rotate3d extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16.5 7.5C15.6 4.2 14 2 12 2 9.2 2 7 6.5 7 12S9.2 22 12 22L13 21.8M15.2 13.7 19 15.6 17.1 19.4"/><path d="M19 15.6Q16.2 17 12 17C6.5 17 2 14.8 2 12S6.5 7 12 7C16.8 7 20.9 8.7 21.8 11"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16.466 7.5C15.643 4.237 13.952 2 12 2 9.239 2 7 6.477 7 12s2.239 10 5 10q.514-.002 1-.2m2.194-8.093 3.814 1.86-1.86 3.814"/><path d="M19 15.57c-1.804.885-4.274 1.43-7 1.43-5.523 0-10-2.239-10-5s4.477-5 10-5c4.838 0 8.873 1.718 9.8 4"/></svg>`
         ).node);
     }
 }

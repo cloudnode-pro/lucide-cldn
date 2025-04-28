@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 13A2 2 0 0 0 2 14.5V18A2 2 0 0 0 3 19.6L6 21.4A2 2 0 0 0 8 21.4L12 19V13.5L7 10.5zM7 16.5 2.3 13.7M7 16.5 12 13.5M7 16.5V21.7M12 13.5V19L16 21.4A2 2 0 0 0 18 21.4L21 19.6A2 2 0 0 0 22 17.9V14.6A2 2 0 0 0 21 13L17 10.5zM17 16.5 12 13.5M17 16.5 21.7 13.7M17 16.5V21.7"/><path d="M8 4.4A2 2 0 0 0 7 6.1V10.5L12 13.5 17 10.5V6.1A2 2 0 0 0 16 4.4L13 2.6A2 2 0 0 0 11 2.6zM12 8 7.3 5.2M12 8 16.7 5.2M12 13.5V8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3zM7 16.5l-4.74-2.85M7 16.5l5-3m-5 3v5.17m5-8.17V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5zm5 3-5-3m5 3 4.74-2.85M17 16.5v5.17"/><path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0zM12 8 7.26 5.15M12 8l4.74-2.85M12 13.5V8"/></svg>
  */
 export class Boxes extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 13A2 2 0 0 0 2 14.5V18A2 2 0 0 0 3 19.6L6 21.4A2 2 0 0 0 8 21.4L12 19V13.5L7 10.5zM7 16.5 2.3 13.7M7 16.5 12 13.5M7 16.5V21.7M12 13.5V19L16 21.4A2 2 0 0 0 18 21.4L21 19.6A2 2 0 0 0 22 17.9V14.6A2 2 0 0 0 21 13L17 10.5zM17 16.5 12 13.5M17 16.5 21.7 13.7M17 16.5V21.7"/><path d="M8 4.4A2 2 0 0 0 7 6.1V10.5L12 13.5 17 10.5V6.1A2 2 0 0 0 16 4.4L13 2.6A2 2 0 0 0 11 2.6zM12 8 7.3 5.2M12 8 16.7 5.2M12 13.5V8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3zM7 16.5l-4.74-2.85M7 16.5l5-3m-5 3v5.17m5-8.17V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5zm5 3-5-3m5 3 4.74-2.85M17 16.5v5.17"/><path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0zM12 8 7.26 5.15M12 8l4.74-2.85M12 13.5V8"/></svg>`
         ).node);
     }
 }

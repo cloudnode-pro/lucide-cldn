@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 11.2C11 10 10 9 10 8A2 2 0 0 1 14 8C14 9 13 10 12 11.2M12 18 14.6 14.5"/><path d="M6.2 9A7 7 0 0 1 17.8 9M9.4 14.5 12 11.2"/><path d="M9.4 14.5C7.7 12.2 6 10.2 6 7A6 5 0 0 1 18 7C18 10.2 16.2 12.2 14.6 14.5L18 19A1 1 0 0 1 18 20.5L16 21.8A1 1 0 0 1 14.6 21.6L12 18 9.3 21.6A1 1 0 0 1 8 21.8L6.1 20.5A1 1 0 0 1 5.9 19z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 11.22C11 9.997 10 9 10 8a2 2 0 0 1 4 0c0 1-.998 2.002-2.01 3.22M12 18l2.57-3.5"/><path d="M6.243 9.016a7 7 0 0 1 11.507-.009m-8.4 5.523L12 11.22"/><path d="M9.35 14.53C7.728 12.246 6 10.221 6 7a6 5 0 0 1 12 0c-.005 3.22-1.778 5.235-3.43 7.5l3.557 4.527a1 1 0 0 1-.203 1.43l-1.894 1.36a1 1 0 0 1-1.384-.215L12 18l-2.679 3.593a1 1 0 0 1-1.39.213l-1.865-1.353a1 1 0 0 1-.203-1.422z"/></svg>
  */
 export class Ribbon extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 11.2C11 10 10 9 10 8A2 2 0 0 1 14 8C14 9 13 10 12 11.2M12 18 14.6 14.5"/><path d="M6.2 9A7 7 0 0 1 17.8 9M9.4 14.5 12 11.2"/><path d="M9.4 14.5C7.7 12.2 6 10.2 6 7A6 5 0 0 1 18 7C18 10.2 16.2 12.2 14.6 14.5L18 19A1 1 0 0 1 18 20.5L16 21.8A1 1 0 0 1 14.6 21.6L12 18 9.3 21.6A1 1 0 0 1 8 21.8L6.1 20.5A1 1 0 0 1 5.9 19z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 11.22C11 9.997 10 9 10 8a2 2 0 0 1 4 0c0 1-.998 2.002-2.01 3.22M12 18l2.57-3.5"/><path d="M6.243 9.016a7 7 0 0 1 11.507-.009m-8.4 5.523L12 11.22"/><path d="M9.35 14.53C7.728 12.246 6 10.221 6 7a6 5 0 0 1 12 0c-.005 3.22-1.778 5.235-3.43 7.5l3.557 4.527a1 1 0 0 1-.203 1.43l-1.894 1.36a1 1 0 0 1-1.384-.215L12 18l-2.679 3.593a1 1 0 0 1-1.39.213l-1.865-1.353a1 1 0 0 1-.203-1.422z"/></svg>`
         ).node);
     }
 }

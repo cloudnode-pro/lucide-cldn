@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 10 3.8 16.2 3.3 17 2 21.4A.5.5 0 0 0 2.6 22L7 20.7 7.8 20.2 14 14M12.8 7.2 17.2 2.8A1 1 0 1 1 21.2 6.8L16.8 11.2M2 2 22 22"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m10 10-6.157 6.162a2 2 0 0 0-.5.833l-1.322 4.36a.5.5 0 0 0 .622.624l4.358-1.323a2 2 0 0 0 .83-.5L14 13.982m-1.171-6.81 4.359-4.346a1 1 0 1 1 3.986 3.986l-4.353 4.353M2 2l20 20"/></svg>
  */
 export class PenOff extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 10 3.8 16.2 3.3 17 2 21.4A.5.5 0 0 0 2.6 22L7 20.7 7.8 20.2 14 14M12.8 7.2 17.2 2.8A1 1 0 1 1 21.2 6.8L16.8 11.2M2 2 22 22"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m10 10-6.157 6.162a2 2 0 0 0-.5.833l-1.322 4.36a.5.5 0 0 0 .622.624l4.358-1.323a2 2 0 0 0 .83-.5L14 13.982m-1.171-6.81 4.359-4.346a1 1 0 1 1 3.986 3.986l-4.353 4.353M2 2l20 20"/></svg>`
         ).node);
     }
 }

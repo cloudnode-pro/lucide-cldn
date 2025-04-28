@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 21H15M14 3H15M19 3A2 2 0 0 1 21 5M21 14V15M21 19A2 2 0 0 1 19 21M21 9V10M3 14V15M3 9V10M5 21A2 2 0 0 1 3 19M5 3A2 2 0 0 0 3 5M7 12H17M7 16H13M7 8H15M9 21H10M9 3H10"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 21h1M14 3h1m4 0a2 2 0 0 1 2 2m0 9v1m0 4a2 2 0 0 1-2 2m2-12v1M3 14v1m0-6v1m2 11a2 2 0 0 1-2-2M5 3a2 2 0 0 0-2 2m4 7h10M7 16h6M7 8h8M9 21h1M9 3h1"/></svg>
  */
 export class TextSelect extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 21H15M14 3H15M19 3A2 2 0 0 1 21 5M21 14V15M21 19A2 2 0 0 1 19 21M21 9V10M3 14V15M3 9V10M5 21A2 2 0 0 1 3 19M5 3A2 2 0 0 0 3 5M7 12H17M7 16H13M7 8H15M9 21H10M9 3H10"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 21h1M14 3h1m4 0a2 2 0 0 1 2 2m0 9v1m0 4a2 2 0 0 1-2 2m2-12v1M3 14v1m0-6v1m2 11a2 2 0 0 1-2-2M5 3a2 2 0 0 0-2 2m4 7h10M7 16h6M7 8h8M9 21h1M9 3h1"/></svg>`
         ).node);
     }
 }

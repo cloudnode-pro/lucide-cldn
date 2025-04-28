@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 14 11 15M13.8 18.3 12.5 19.7M17.8 5.7A16 16 0 0 0 5.7 17.7M18.8 9.3A1 1 0 0 0 20.9 17"/><path d="M22 20.7A1 1 0 0 1 20.7 22L2.7 17A1 1 0 0 1 2 15.7 20 20 0 0 1 15.7 2 1 1 0 0 1 17 2.7z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m12 14-1 1m2.75 3.25-1.25 1.42m5.275-14.016a15.68 15.68 0 0 0-12.121 12.12M18.8 9.3a1 1 0 0 0 2.1 7.7"/><path d="M21.964 20.732a1 1 0 0 1-1.232 1.232l-18-5a1 1 0 0 1-.695-1.232A19.68 19.68 0 0 1 15.732 2.037a1 1 0 0 1 1.232.695z"/></svg>
  */
 export class Pizza extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 14 11 15M13.8 18.3 12.5 19.7M17.8 5.7A16 16 0 0 0 5.7 17.7M18.8 9.3A1 1 0 0 0 20.9 17"/><path d="M22 20.7A1 1 0 0 1 20.7 22L2.7 17A1 1 0 0 1 2 15.7 20 20 0 0 1 15.7 2 1 1 0 0 1 17 2.7z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m12 14-1 1m2.75 3.25-1.25 1.42m5.275-14.016a15.68 15.68 0 0 0-12.121 12.12M18.8 9.3a1 1 0 0 0 2.1 7.7"/><path d="M21.964 20.732a1 1 0 0 1-1.232 1.232l-18-5a1 1 0 0 1-.695-1.232A19.68 19.68 0 0 1 15.732 2.037a1 1 0 0 1 1.232.695z"/></svg>`
         ).node);
     }
 }

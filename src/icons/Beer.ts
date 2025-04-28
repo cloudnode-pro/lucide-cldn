@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 11H18A3 3 0 0 1 18 17H17M9 12V18M13 12V18M14 7.5C13 7.5 12.6 8 11 8S9 7.5 8 7.5 6.3 8 5.5 8A2.5 2.5 0 0 1 5.5 3C6.3 3 7.1 3.5 8 3.5S9.4 2 11 2 13 3.5 14 3.5 15.7 3 16.5 3A2.5 2.5 0 0 1 16.5 8C15.7 8 15 7.5 14 7.5"/><path d="M5 8V20A2 2 0 0 0 7 22H15A2 2 0 0 0 17 20V8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 11h1a3 3 0 0 1 0 6h-1m-8-5v6m4-6v6m1-10.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>
  */
 export class Beer extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 11H18A3 3 0 0 1 18 17H17M9 12V18M13 12V18M14 7.5C13 7.5 12.6 8 11 8S9 7.5 8 7.5 6.3 8 5.5 8A2.5 2.5 0 0 1 5.5 3C6.3 3 7.1 3.5 8 3.5S9.4 2 11 2 13 3.5 14 3.5 15.7 3 16.5 3A2.5 2.5 0 0 1 16.5 8C15.7 8 15 7.5 14 7.5"/><path d="M5 8V20A2 2 0 0 0 7 22H15A2 2 0 0 0 17 20V8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 11h1a3 3 0 0 1 0 6h-1m-8-5v6m4-6v6m1-10.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5"/><path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/></svg>`
         ).node);
     }
 }

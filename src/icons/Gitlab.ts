@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 13.3 18.7 3.3 18.5 3H18.1L17.9 3.3 15.7 10H8.3L6.1 3.3 6 3H5.5L5.4 3.3 2 13.3A1 1 0 0 0 2.3 14.3L12 21 21.7 14.1z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m22 13.29-3.33-10a.4.4 0 0 0-.14-.18.38.38 0 0 0-.22-.11.4.4 0 0 0-.23.07.4.4 0 0 0-.14.18l-2.26 6.67H8.32L6.1 3.26a.4.4 0 0 0-.1-.18.38.38 0 0 0-.26-.08.4.4 0 0 0-.23.07.4.4 0 0 0-.14.18L2 13.29a.74.74 0 0 0 .27.83L12 21l9.69-6.88a.71.71 0 0 0 .31-.83"/></svg>
  */
 export class Gitlab extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 13.3 18.7 3.3 18.5 3H18.1L17.9 3.3 15.7 10H8.3L6.1 3.3 6 3H5.5L5.4 3.3 2 13.3A1 1 0 0 0 2.3 14.3L12 21 21.7 14.1z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m22 13.29-3.33-10a.4.4 0 0 0-.14-.18.38.38 0 0 0-.22-.11.4.4 0 0 0-.23.07.4.4 0 0 0-.14.18l-2.26 6.67H8.32L6.1 3.26a.4.4 0 0 0-.1-.18.38.38 0 0 0-.26-.08.4.4 0 0 0-.23.07.4.4 0 0 0-.14.18L2 13.29a.74.74 0 0 0 .27.83L12 21l9.69-6.88a.71.71 0 0 0 .31-.83"/></svg>`
         ).node);
     }
 }

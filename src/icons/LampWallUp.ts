@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9.6A1 1 0 0 1 19 11H9A1 1 0 0 1 8 9.6L10 4.6A1 1 0 0 1 11 4H17A1 1 0 0 1 18 4.6zM6 15A2 2 0 0 1 8 17V19A2 2 0 0 1 6 21H5A1 1 0 0 1 4 20V16A1 1 0 0 1 5 15z"/><path d="M8 18H12A2 2 0 0 0 14 16V11"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19.929 9.629A1 1 0 0 1 19 11H9a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 11 4h6a1 1 0 0 1 .928.629zM6 15a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z"/><path d="M8 18h4a2 2 0 0 0 2-2v-5"/></svg>
  */
 export class LampWallUp extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9.6A1 1 0 0 1 19 11H9A1 1 0 0 1 8 9.6L10 4.6A1 1 0 0 1 11 4H17A1 1 0 0 1 18 4.6zM6 15A2 2 0 0 1 8 17V19A2 2 0 0 1 6 21H5A1 1 0 0 1 4 20V16A1 1 0 0 1 5 15z"/><path d="M8 18H12A2 2 0 0 0 14 16V11"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19.929 9.629A1 1 0 0 1 19 11H9a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 11 4h6a1 1 0 0 1 .928.629zM6 15a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z"/><path d="M8 18h4a2 2 0 0 0 2-2v-5"/></svg>`
         ).node);
     }
 }

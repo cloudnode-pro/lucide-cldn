@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 17V21M14.3 7.5 15.3 7.1M15.2 4.9 14.3 4.5M16.9 3.2 16.5 2.3M16.9 8.8 16.5 9.7M19.1 3.2 19.5 2.3M19.5 9.7 19.1 8.7M20.8 4.9 21.7 4.5M20.8 7.1 21.7 7.5M22 13V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15V5A2 2 0 0 1 4 3H11M8 21H16"/><circle cx="18" cy="6" r="3"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 17v4m2.305-13.47.923-.382m0-2.296-.923-.383m2.547-1.241-.383-.924m.383 6.468-.383.923m2.679-6.467.383-.924m-.001 7.392-.382-.924m1.624-3.92.924-.383m-.924 2.679.924.383M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7M8 21h8"/><circle cx="18" cy="6" r="3"/></svg>
  */
 export class MonitorCog extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 17V21M14.3 7.5 15.3 7.1M15.2 4.9 14.3 4.5M16.9 3.2 16.5 2.3M16.9 8.8 16.5 9.7M19.1 3.2 19.5 2.3M19.5 9.7 19.1 8.7M20.8 4.9 21.7 4.5M20.8 7.1 21.7 7.5M22 13V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15V5A2 2 0 0 1 4 3H11M8 21H16"/><circle cx="18" cy="6" r="3"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 17v4m2.305-13.47.923-.382m0-2.296-.923-.383m2.547-1.241-.383-.924m.383 6.468-.383.923m2.679-6.467.383-.924m-.001 7.392-.382-.924m1.624-3.92.924-.383m-.924 2.679.924.383M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7M8 21h8"/><circle cx="18" cy="6" r="3"/></svg>`
         ).node);
     }
 }

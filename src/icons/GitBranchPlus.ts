@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6 3V15M18 9A3 3 0 1 0 18 3 3 3 0 0 0 18 9M6 21A3 3 0 1 0 6 15 3 3 0 0 0 6 21"/><path d="M15 6A9 9 0 0 0 6 15M18 15V21M21 18H15"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6 3v12m12-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/><path d="M15 6a9 9 0 0 0-9 9m12 0v6m3-3h-6"/></svg>
  */
 export class GitBranchPlus extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6 3V15M18 9A3 3 0 1 0 18 3 3 3 0 0 0 18 9M6 21A3 3 0 1 0 6 15 3 3 0 0 0 6 21"/><path d="M15 6A9 9 0 0 0 6 15M18 15V21M21 18H15"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6 3v12m12-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/><path d="M15 6a9 9 0 0 0-9 9m12 0v6m3-3h-6"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/><path d="M20.2 20.2C22.2 18.2 20.2 12.8 15.7 8.3S5.8 1.8 3.8 3.8 3.8 11.2 8.3 15.7 18.2 22.2 20.2 20.2"/><path d="M15.7 15.7C20.2 11.2 22.2 5.8 20.2 3.8S12.8 3.8 8.3 8.3 1.8 18.2 3.8 20.2 11.2 20.2 15.7 15.7"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/><path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5"/><path d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5"/></svg>
  */
 export class Atom extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/><path d="M20.2 20.2C22.2 18.2 20.2 12.8 15.7 8.3S5.8 1.8 3.8 3.8 3.8 11.2 8.3 15.7 18.2 22.2 20.2 20.2"/><path d="M15.7 15.7C20.2 11.2 22.2 5.8 20.2 3.8S12.8 3.8 8.3 8.3 1.8 18.2 3.8 20.2 11.2 20.2 15.7 15.7"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1"/><path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5"/><path d="M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5"/></svg>`
         ).node);
     }
 }

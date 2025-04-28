@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 5C22 14 18 17 16 17S10 14 10 5Q10 2 16 2C22 2 22 3 22 5"/><path d="M17.4 9.9A2 2 0 0 1 14.6 9.9M10.1 7.1Q8.5 7.2 6 8.6.8 11.6 2.3 14.2C6.8 22 11.8 22.6 13.5 21.6 14.4 21.1 15.4 19.5 15.4 16.9"/><path d="M9.1 16.5A2 2 0 0 1 11.5 15.1"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 11h.01M14 6h.01M18 6h.01M6.5 13.1h.01M22 5c0 9-4 12-6 12s-6-3-6-12q0-3 6-3c6 0 6 1 6 3"/><path d="M17.4 9.9c-.8.8-2 .8-2.8 0m-4.5-2.8C9 7.2 7.7 7.7 6 8.6c-3.5 2-4.7 3.9-3.7 5.6 4.5 7.8 9.5 8.4 11.2 7.4.9-.5 1.9-2.1 1.9-4.7"/><path d="M9.1 16.5c.3-1.1 1.4-1.7 2.4-1.4"/></svg>
  */
 export class Drama extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 5C22 14 18 17 16 17S10 14 10 5Q10 2 16 2C22 2 22 3 22 5"/><path d="M17.4 9.9A2 2 0 0 1 14.6 9.9M10.1 7.1Q8.5 7.2 6 8.6.8 11.6 2.3 14.2C6.8 22 11.8 22.6 13.5 21.6 14.4 21.1 15.4 19.5 15.4 16.9"/><path d="M9.1 16.5A2 2 0 0 1 11.5 15.1"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 11h.01M14 6h.01M18 6h.01M6.5 13.1h.01M22 5c0 9-4 12-6 12s-6-3-6-12q0-3 6-3c6 0 6 1 6 3"/><path d="M17.4 9.9c-.8.8-2 .8-2.8 0m-4.5-2.8C9 7.2 7.7 7.7 6 8.6c-3.5 2-4.7 3.9-3.7 5.6 4.5 7.8 9.5 8.4 11.2 7.4.9-.5 1.9-2.1 1.9-4.7"/><path d="M9.1 16.5c.3-1.1 1.4-1.7 2.4-1.4"/></svg>`
         ).node);
     }
 }

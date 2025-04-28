@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3 12 8 7 3zM17 21 12 16 7 21zM4 12H2M10 12H8M16 12H14M22 12H20"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m17 3-5 5-5-5zm0 18-5-5-5 5zM4 12H2m8 0H8m8 0h-2m8 0h-2"/></svg>
  */
 export class FlipVertical2 extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3 12 8 7 3zM17 21 12 16 7 21zM4 12H2M10 12H8M16 12H14M22 12H20"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m17 3-5 5-5-5zm0 18-5-5-5 5zM4 12H2m8 0H8m8 0h-2m8 0h-2"/></svg>`
         ).node);
     }
 }

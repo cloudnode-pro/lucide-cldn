@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.4 3H3A1 1 0 0 0 2.3 4.7L9.5 12.7A2 2 0 0 1 10 14V20A1 1 0 0 0 10.6 20.9L12.6 21.9A1 1 0 0 0 14 21V14A2 2 0 0 1 14.5 12.7L15.7 11.3M16 6H22M19 3V9"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.354 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l1.218-1.348M16 6h6m-3-3v6"/></svg>
  */
 export class FunnelPlus extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.4 3H3A1 1 0 0 0 2.3 4.7L9.5 12.7A2 2 0 0 1 10 14V20A1 1 0 0 0 10.6 20.9L12.6 21.9A1 1 0 0 0 14 21V14A2 2 0 0 1 14.5 12.7L15.7 11.3M16 6H22M19 3V9"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.354 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l1.218-1.348M16 6h6m-3-3v6"/></svg>`
         ).node);
     }
 }

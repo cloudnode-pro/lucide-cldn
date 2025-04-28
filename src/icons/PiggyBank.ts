@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 17H14V19A1 1 0 0 0 15 20H17A1 1 0 0 0 18 19V16A3 3 0 0 0 20 14H21A1 1 0 0 0 22 13V11A1 1 0 0 0 21 10H20A5 5 0 0 0 18 6V3A4 4 0 0 0 14.8 4.6L14.5 5H11A6 6 0 0 0 5 11V12A5 5 0 0 0 7 16V19A1 1 0 0 0 8 20H10A1 1 0 0 0 11 19zM2 8V9A2 2 0 0 0 4 11H5"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 17h3v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3a3.16 3.16 0 0 0 2-2h1a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-1a5 5 0 0 0-2-4V3a4 4 0 0 0-3.2 1.6l-.3.4H11a6 6 0 0 0-6 6v1a5 5 0 0 0 2 4v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5-7h.01M2 8v1a2 2 0 0 0 2 2h1"/></svg>
  */
 export class PiggyBank extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 17H14V19A1 1 0 0 0 15 20H17A1 1 0 0 0 18 19V16A3 3 0 0 0 20 14H21A1 1 0 0 0 22 13V11A1 1 0 0 0 21 10H20A5 5 0 0 0 18 6V3A4 4 0 0 0 14.8 4.6L14.5 5H11A6 6 0 0 0 5 11V12A5 5 0 0 0 7 16V19A1 1 0 0 0 8 20H10A1 1 0 0 0 11 19zM2 8V9A2 2 0 0 0 4 11H5"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 17h3v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3a3.16 3.16 0 0 0 2-2h1a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-1a5 5 0 0 0-2-4V3a4 4 0 0 0-3.2 1.6l-.3.4H11a6 6 0 0 0-6 6v1a5 5 0 0 0 2 4v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5-7h.01M2 8v1a2 2 0 0 0 2 2h1"/></svg>`
         ).node);
     }
 }

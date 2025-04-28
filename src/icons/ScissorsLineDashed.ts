@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.4 9.4 8 12"/><circle cx="4" cy="8" r="2"/><path d="M14 6 5.4 14.6"/><circle cx="4" cy="16" r="2"/><path d="M10.8 14.8 14 18M16 12H14M22 12H20"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.42 9.42 8 12"/><circle cx="4" cy="8" r="2"/><path d="m14 6-8.58 8.58"/><circle cx="4" cy="16" r="2"/><path d="M10.8 14.8 14 18m2-6h-2m8 0h-2"/></svg>
  */
 export class ScissorsLineDashed extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.4 9.4 8 12"/><circle cx="4" cy="8" r="2"/><path d="M14 6 5.4 14.6"/><circle cx="4" cy="16" r="2"/><path d="M10.8 14.8 14 18M16 12H14M22 12H20"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.42 9.42 8 12"/><circle cx="4" cy="8" r="2"/><path d="m14 6-8.58 8.58"/><circle cx="4" cy="16" r="2"/><path d="M10.8 14.8 14 18m2-6h-2m8 0h-2"/></svg>`
         ).node);
     }
 }

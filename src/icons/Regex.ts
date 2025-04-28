@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3V13M12.7 5.5 21.3 10.5M12.7 10.5 21.3 5.5M9 17A2 2 0 0 0 7 15H5A2 2 0 0 0 3 17V19A2 2 0 0 0 5 21H7A2 2 0 0 0 9 19z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3v10m-4.33-7.5 8.66 5m-8.66 0 8.66-5M9 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2z"/></svg>
  */
 export class Regex extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3V13M12.7 5.5 21.3 10.5M12.7 10.5 21.3 5.5M9 17A2 2 0 0 0 7 15H5A2 2 0 0 0 3 17V19A2 2 0 0 0 5 21H7A2 2 0 0 0 9 19z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 3v10m-4.33-7.5 8.66 5m-8.66 0 8.66-5M9 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2z"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 11 14 20M19 11 15 4M2 11H22M3.5 11 5.1 18.4A2 2 0 0 0 7.1 20H16.9A2 2 0 0 0 18.9 18.4L20.6 11M4.5 15.5H19.5M5 11 9 4M9 11 10 20"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m15 11-1 9m5-9-4-7M2 11h20M3.5 11l1.6 7.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6l1.7-7.4M4.5 15.5h15M5 11l4-7m0 7 1 9"/></svg>
  */
 export class ShoppingBasket extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 11 14 20M19 11 15 4M2 11H22M3.5 11 5.1 18.4A2 2 0 0 0 7.1 20H16.9A2 2 0 0 0 18.9 18.4L20.6 11M4.5 15.5H19.5M5 11 9 4M9 11 10 20"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m15 11-1 9m5-9-4-7M2 11h20M3.5 11l1.6 7.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6l1.7-7.4M4.5 15.5h15M5 11l4-7m0 7 1 9"/></svg>`
         ).node);
     }
 }

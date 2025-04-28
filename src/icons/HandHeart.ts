@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 14H13A2 2 0 1 0 13 10H10Q9 10 8.6 10.6L3 16"/><path d="M7 20 8.6 18.6Q9.1 18 10 18H14Q15.7 18 16.8 16.8L21.4 12.4A2 2 0 0 0 18.7 9.4L14.3 13.5M2 15 8 21"/><path d="M19.5 8.5C20.2 7.8 21 6.9 21 5.8A2.7 2.7 0 0 0 16 4 2.8 2.8 0 0 0 11 5.8C11 7 11.8 7.8 12.5 8.6L16 12Z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 14h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16"/><path d="m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9M2 15l6 6"/><path d="M19.5 8.5c.7-.7 1.5-1.6 1.5-2.7A2.73 2.73 0 0 0 16 4a2.78 2.78 0 0 0-5 1.8c0 1.2.8 2 1.5 2.8L16 12Z"/></svg>
  */
 export class HandHeart extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 14H13A2 2 0 1 0 13 10H10Q9 10 8.6 10.6L3 16"/><path d="M7 20 8.6 18.6Q9.1 18 10 18H14Q15.7 18 16.8 16.8L21.4 12.4A2 2 0 0 0 18.7 9.4L14.3 13.5M2 15 8 21"/><path d="M19.5 8.5C20.2 7.8 21 6.9 21 5.8A2.7 2.7 0 0 0 16 4 2.8 2.8 0 0 0 11 5.8C11 7 11.8 7.8 12.5 8.6L16 12Z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 14h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16"/><path d="m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9M2 15l6 6"/><path d="M19.5 8.5c.7-.7 1.5-1.6 1.5-2.7A2.73 2.73 0 0 0 16 4a2.78 2.78 0 0 0-5 1.8c0 1.2.8 2 1.5 2.8L16 12Z"/></svg>`
         ).node);
     }
 }

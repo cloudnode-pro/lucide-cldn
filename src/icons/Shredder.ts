@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 22V17M14 19V17M14 2V6A2 2 0 0 0 16 8H20M18 20V17M2 13H22"/><path d="M20 13V7L15 2H6A2 2 0 0 0 4 4V13M6 20V17"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 22v-5m4 2v-2m0-15v4a2 2 0 0 0 2 2h4m-2 12v-3M2 13h20"/><path d="M20 13V7l-5-5H6a2 2 0 0 0-2 2v9m2 7v-3"/></svg>
  */
 export class Shredder extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 22V17M14 19V17M14 2V6A2 2 0 0 0 16 8H20M18 20V17M2 13H22"/><path d="M20 13V7L15 2H6A2 2 0 0 0 4 4V13M6 20V17"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 22v-5m4 2v-2m0-15v4a2 2 0 0 0 2 2h4m-2 12v-3M2 13h20"/><path d="M20 13V7l-5-5H6a2 2 0 0 0-2 2v9m2 7v-3"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 2V3C3 4 5 4 5 5S3 6 3 7 5 8 5 9 3 10 3 11 5 12 5 13M20.8 8.8A4 4 0 0 0 15.2 3.2L3.2 15.2A4 4 0 1 0 8.8 20.8Z"/><path d="M18 11.7V22A4 4 0 0 0 22 18V6"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 2v1c0 1 2 1 2 2S3 6 3 7s2 1 2 2-2 1-2 2 2 1 2 2m13-7h.01M6 18h.01m14.82-9.17a4 4 0 0 0-5.66-5.66l-12 12a4 4 0 1 0 5.66 5.66Z"/><path d="M18 11.66V22a4 4 0 0 0 4-4V6"/></svg>
  */
 export class PocketKnife extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 2V3C3 4 5 4 5 5S3 6 3 7 5 8 5 9 3 10 3 11 5 12 5 13M20.8 8.8A4 4 0 0 0 15.2 3.2L3.2 15.2A4 4 0 1 0 8.8 20.8Z"/><path d="M18 11.7V22A4 4 0 0 0 22 18V6"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 2v1c0 1 2 1 2 2S3 6 3 7s2 1 2 2-2 1-2 2 2 1 2 2m13-7h.01M6 18h.01m14.82-9.17a4 4 0 0 0-5.66-5.66l-12 12a4 4 0 1 0 5.66 5.66Z"/><path d="M18 11.66V22a4 4 0 0 0 4-4V6"/></svg>`
         ).node);
     }
 }

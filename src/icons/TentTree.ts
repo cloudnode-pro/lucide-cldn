@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="4" cy="4" r="2"/><path d="M14 5 17 2 20 5M14 10 17 7 20 10M17 14V2M17 14H7L2 22H22ZM8 14V22M9 14 14 22"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="4" cy="4" r="2"/><path d="m14 5 3-3 3 3m-6 5 3-3 3 3m-3 4V2m0 12H7l-5 8h20Zm-9 0v8m1-8 5 8"/></svg>
  */
 export class TentTree extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="4" cy="4" r="2"/><path d="M14 5 17 2 20 5M14 10 17 7 20 10M17 14V2M17 14H7L2 22H22ZM8 14V22M9 14 14 22"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="4" cy="4" r="2"/><path d="m14 5 3-3 3 3m-6 5 3-3 3 3m-3 4V2m0 12H7l-5 8h20Zm-9 0v8m1-8 5 8"/></svg>`
         ).node);
     }
 }

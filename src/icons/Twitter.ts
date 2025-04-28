@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 4S21.3 6.1 20 7.4C21.6 17.4 10.6 24.7 2 19Q5.5 19.1 8 17A8.5 8.5 0 0 1 3 5C5.2 7.6 8.6 9.1 12 9 11.1 4.8 16 2.4 19 5.2 20.1 5.2 22 4 22 4"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2"/></svg>
  */
 export class Twitter extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 4S21.3 6.1 20 7.4C21.6 17.4 10.6 24.7 2 19Q5.5 19.1 8 17A8.5 8.5 0 0 1 3 5C5.2 7.6 8.6 9.1 12 9 11.1 4.8 16 2.4 19 5.2 20.1 5.2 22 4 22 4"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2"/></svg>`
         ).node);
     }
 }

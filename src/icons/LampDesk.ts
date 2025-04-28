@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.3 2.3A1 1 0 0 1 11.7 2.3L14.2 4.8 20.2 6A1 1 0 0 1 20.7 7.7L13.7 14.7A1 1 0 0 1 12 14.2L10.8 8.2 8.3 5.7A1 1 0 0 1 8.3 4.3zM14.2 4.8 10.8 8.2M3 20A2 2 0 0 1 5 18H9A2 2 0 0 1 11 20V21A1 1 0 0 1 10 22H4A1 1 0 0 1 3 21z"/><path d="M9 6.5 4.4 11.3A1 1 0 0 0 4 12.5L7 18"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.293 2.293a1 1 0 0 1 1.414 0l2.5 2.5 5.994 1.227a1 1 0 0 1 .506 1.687l-7 7a1 1 0 0 1-1.687-.506l-1.227-5.994-2.5-2.5a1 1 0 0 1 0-1.414zm3.914 2.5-3.414 3.414M3 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="m9.086 6.5-4.793 4.793a1 1 0 0 0-.18 1.17L7 18"/></svg>
  */
 export class LampDesk extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.3 2.3A1 1 0 0 1 11.7 2.3L14.2 4.8 20.2 6A1 1 0 0 1 20.7 7.7L13.7 14.7A1 1 0 0 1 12 14.2L10.8 8.2 8.3 5.7A1 1 0 0 1 8.3 4.3zM14.2 4.8 10.8 8.2M3 20A2 2 0 0 1 5 18H9A2 2 0 0 1 11 20V21A1 1 0 0 1 10 22H4A1 1 0 0 1 3 21z"/><path d="M9 6.5 4.4 11.3A1 1 0 0 0 4 12.5L7 18"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.293 2.293a1 1 0 0 1 1.414 0l2.5 2.5 5.994 1.227a1 1 0 0 1 .506 1.687l-7 7a1 1 0 0 1-1.687-.506l-1.227-5.994-2.5-2.5a1 1 0 0 1 0-1.414zm3.914 2.5-3.414 3.414M3 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="m9.086 6.5-4.793 4.793a1 1 0 0 0-.18 1.17L7 18"/></svg>`
         ).node);
     }
 }

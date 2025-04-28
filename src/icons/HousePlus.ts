@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.2 2.4A2 2 0 0 0 10.7 2.4L3.7 8.5A2 2 0 0 0 3 10V19A2 2 0 0 0 5 21H19A2 2 0 0 0 21 19V11.6"/><path d="M15 21V13A1 1 0 0 0 14 12H10A1 1 0 0 0 9 13V21M15 6H21M18 3V9"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.22 2.416a2 2 0 0 0-2.511.057l-7 5.999A2 2 0 0 0 3 10v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7.354"/><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8m6-15h6m-3-3v6"/></svg>
  */
 export class HousePlus extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.2 2.4A2 2 0 0 0 10.7 2.4L3.7 8.5A2 2 0 0 0 3 10V19A2 2 0 0 0 5 21H19A2 2 0 0 0 21 19V11.6"/><path d="M15 21V13A1 1 0 0 0 14 12H10A1 1 0 0 0 9 13V21M15 6H21M18 3V9"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.22 2.416a2 2 0 0 0-2.511.057l-7 5.999A2 2 0 0 0 3 10v9a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7.354"/><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8m6-15h6m-3-3v6"/></svg>`
         ).node);
     }
 }

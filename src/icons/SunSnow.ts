@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 21V20M10 4V3M10 9A3 3 0 0 0 10 15M14 20 15.3 17.5 18 18M14 4 15.3 6.5 18 6"/><path d="M17 21 14 15 15.5 12H22M17 3 14 9 15.5 12M2 12H3"/><path d="M20 10 18.5 12 20 14M3.6 18.4 4.3 17.7M4.3 6.3 3.6 5.6"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 21v-1m0-16V3m0 6a3 3 0 0 0 0 6m4 5 1.25-2.5L18 18M14 4l1.25 2.5L18 6"/><path d="m17 21-3-6 1.5-3H22m-5-9-3 6 1.5 3M2 12h1"/><path d="m20 10-1.5 2 1.5 2M3.64 18.36l.7-.7m0-11.32-.7-.7"/></svg>
  */
 export class SunSnow extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 21V20M10 4V3M10 9A3 3 0 0 0 10 15M14 20 15.3 17.5 18 18M14 4 15.3 6.5 18 6"/><path d="M17 21 14 15 15.5 12H22M17 3 14 9 15.5 12M2 12H3"/><path d="M20 10 18.5 12 20 14M3.6 18.4 4.3 17.7M4.3 6.3 3.6 5.6"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 21v-1m0-16V3m0 6a3 3 0 0 0 0 6m4 5 1.25-2.5L18 18M14 4l1.25 2.5L18 6"/><path d="m17 21-3-6 1.5-3H22m-5-9-3 6 1.5 3M2 12h1"/><path d="m20 10-1.5 2 1.5 2M3.64 18.36l.7-.7m0-11.32-.7-.7"/></svg>`
         ).node);
     }
 }

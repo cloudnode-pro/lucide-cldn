@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 14V16M14 20V22M14 2V4M14 8V10M2 15H10M2 3H8A2 2 0 0 1 10 5V19A2 2 0 0 1 8 21H2M2 9H10M22 15H18M22 3H20A2 2 0 0 0 18 5V19A2 2 0 0 0 20 21H22M22 9H18M5 3V21"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 14v2m0 4v2m0-20v2m0 4v2M2 15h8M2 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2M2 9h8m12 6h-4m4-12h-2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2m0-12h-4M5 3v18"/></svg>
  */
 export class TableColumnsSplit extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 14V16M14 20V22M14 2V4M14 8V10M2 15H10M2 3H8A2 2 0 0 1 10 5V19A2 2 0 0 1 8 21H2M2 9H10M22 15H18M22 3H20A2 2 0 0 0 18 5V19A2 2 0 0 0 20 21H22M22 9H18M5 3V21"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 14v2m0 4v2m0-20v2m0 4v2M2 15h8M2 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H2M2 9h8m12 6h-4m4-12h-2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2m0-12h-4M5 3v18"/></svg>`
         ).node);
     }
 }

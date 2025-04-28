@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19 5 22 2M2 22 5 19M6.3 20.3A2.4 2.4 0 0 0 9.7 20.3L12 18 6 12 3.7 14.3A2.4 2.4 0 0 0 3.7 17.7ZM7.5 13.5 10 11M10.5 16.5 13 14M12 6 18 12 20.3 9.7A2.4 2.4 0 0 0 20.3 6.3L17.7 3.7A2.4 2.4 0 0 0 14.3 3.7Z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m19 5 3-3M2 22l3-3m1.3 1.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Zm1.2-6.8L10 11m.5 5.5L13 14m-1-8 6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z"/></svg>
  */
 export class Unplug extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19 5 22 2M2 22 5 19M6.3 20.3A2.4 2.4 0 0 0 9.7 20.3L12 18 6 12 3.7 14.3A2.4 2.4 0 0 0 3.7 17.7ZM7.5 13.5 10 11M10.5 16.5 13 14M12 6 18 12 20.3 9.7A2.4 2.4 0 0 0 20.3 6.3L17.7 3.7A2.4 2.4 0 0 0 14.3 3.7Z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m19 5 3-3M2 22l3-3m1.3 1.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Zm1.2-6.8L10 11m.5 5.5L13 14m-1-8 6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z"/></svg>`
         ).node);
     }
 }

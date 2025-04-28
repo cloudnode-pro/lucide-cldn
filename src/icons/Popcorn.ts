@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 8A2 2 0 0 0 18 4 2 2 0 0 0 14 4 2 2 0 0 0 10 4 2 2 0 0 0 6 4 2 2 0 0 0 6 8M10 22 9 8M14 22 15 8"/><path d="M20 8Q20.8 8 20.8 9L18.2 21Q17.9 21.9 17 22H7Q6 22 5.8 21L3.2 9Q3.2 8 4 8Z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 8a2 2 0 0 0 0-4 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0 0 4m4 14L9 8m5 14 1-14"/><path d="M20 8c.5 0 .9.4.8 1l-2.6 12c-.1.5-.7 1-1.2 1H7c-.6 0-1.1-.4-1.2-1L3.2 9c-.1-.6.3-1 .8-1Z"/></svg>
  */
 export class Popcorn extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 8A2 2 0 0 0 18 4 2 2 0 0 0 14 4 2 2 0 0 0 10 4 2 2 0 0 0 6 4 2 2 0 0 0 6 8M10 22 9 8M14 22 15 8"/><path d="M20 8Q20.8 8 20.8 9L18.2 21Q17.9 21.9 17 22H7Q6 22 5.8 21L3.2 9Q3.2 8 4 8Z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 8a2 2 0 0 0 0-4 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0 0 4m4 14L9 8m5 14 1-14"/><path d="M20 8c.5 0 .9.4.8 1l-2.6 12c-.1.5-.7 1-1.2 1H7c-.6 0-1.1-.4-1.2-1L3.2 9c-.1-.6.3-1 .8-1Z"/></svg>`
         ).node);
     }
 }

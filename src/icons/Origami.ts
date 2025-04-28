@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12V4A1 1 0 0 1 13 3H19.3A1 1 0 0 1 19.9 4.8L15.3 8.8"/><path d="M12 21 4.6 13.6A2 2 0 0 1 4 12.2V6.4A1 1 0 0 1 5.7 5.7L20 20"/><path d="M12.2 3.4 20.6 18.4A1 1 0 0 1 20.5 19.4L19.3 20.7 18.6 21H6.4L5.7 20.8 3.3 18.8A1 1 0 0 1 3.9 17H8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12V4a1 1 0 0 1 1-1h6.297a1 1 0 0 1 .651 1.759l-4.696 4.025M12 21l-7.414-7.414A2 2 0 0 1 4 12.172V6.415a1.002 1.002 0 0 1 1.707-.707L20 20.009"/><path d="m12.214 3.381 8.414 14.966a1 1 0 0 1-.167 1.199l-1.168 1.163a1 1 0 0 1-.706.291H6.351a1 1 0 0 1-.625-.219L3.25 18.8a1 1 0 0 1 .631-1.781l4.165.027"/></svg>
  */
 export class Origami extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12V4A1 1 0 0 1 13 3H19.3A1 1 0 0 1 19.9 4.8L15.3 8.8"/><path d="M12 21 4.6 13.6A2 2 0 0 1 4 12.2V6.4A1 1 0 0 1 5.7 5.7L20 20"/><path d="M12.2 3.4 20.6 18.4A1 1 0 0 1 20.5 19.4L19.3 20.7 18.6 21H6.4L5.7 20.8 3.3 18.8A1 1 0 0 1 3.9 17H8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12V4a1 1 0 0 1 1-1h6.297a1 1 0 0 1 .651 1.759l-4.696 4.025M12 21l-7.414-7.414A2 2 0 0 1 4 12.172V6.415a1.002 1.002 0 0 1 1.707-.707L20 20.009"/><path d="m12.214 3.381 8.414 14.966a1 1 0 0 1-.167 1.199l-1.168 1.163a1 1 0 0 1-.706.291H6.351a1 1 0 0 1-.625-.219L3.25 18.8a1 1 0 0 1 .631-1.781l4.165.027"/></svg>`
         ).node);
     }
 }

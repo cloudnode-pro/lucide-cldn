@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.8 11.3 2 22 12.7 18.2M22 2 19.8 2.8A3 3 0 0 0 17.8 5.8Q17.8 7.5 16.3 7.6H16Q14.6 7.6 14.2 8.9L14 10M22 13 21.2 12.7Q19.7 12.3 19.2 13.7 19 15 17.8 15H17M11 2 11.3 2.8Q11.7 4.3 10.3 4.8 9 5.1 9 6.2V7"/><path d="M11 13C13 15 13.8 17.2 13 18S10 18 8 16 5.2 11.8 6 11 9 11 11 13"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.8 11.3 2 22l10.7-3.79M4 3h.01M22 8h.01M15 2h.01M22 20h.01M22 2l-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10m8 3-.82-.33c-.86-.34-1.82.2-1.98 1.11-.11.7-.72 1.22-1.43 1.22H17M11 2l.33.82c.34.86-.2 1.82-1.11 1.98-.7.1-1.22.72-1.22 1.43V7"/><path d="M11 13c1.93 1.93 2.83 4.17 2 5s-3.07-.07-5-2-2.83-4.17-2-5 3.07.07 5 2"/></svg>
  */
 export class PartyPopper extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.8 11.3 2 22 12.7 18.2M22 2 19.8 2.8A3 3 0 0 0 17.8 5.8Q17.8 7.5 16.3 7.6H16Q14.6 7.6 14.2 8.9L14 10M22 13 21.2 12.7Q19.7 12.3 19.2 13.7 19 15 17.8 15H17M11 2 11.3 2.8Q11.7 4.3 10.3 4.8 9 5.1 9 6.2V7"/><path d="M11 13C13 15 13.8 17.2 13 18S10 18 8 16 5.2 11.8 6 11 9 11 11 13"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5.8 11.3 2 22l10.7-3.79M4 3h.01M22 8h.01M15 2h.01M22 20h.01M22 2l-2.24.75a2.9 2.9 0 0 0-1.96 3.12c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10m8 3-.82-.33c-.86-.34-1.82.2-1.98 1.11-.11.7-.72 1.22-1.43 1.22H17M11 2l.33.82c.34.86-.2 1.82-1.11 1.98-.7.1-1.22.72-1.22 1.43V7"/><path d="M11 13c1.93 1.93 2.83 4.17 2 5s-3.07-.07-5-2-2.83-4.17-2-5 3.07.07 5 2"/></svg>`
         ).node);
     }
 }
