@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="M2 8H22"/><circle cx="8" cy="14" r="2"/><path d="M8 12H16"/><circle cx="16" cy="14" r="2"/></svg>
+ */
 export class Videotape extends Icon {
     public constructor() {
         super(Icon.from(

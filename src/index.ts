@@ -14,4 +14,5 @@
  * You should have received a copy of the GNU Lesser General Public License along with lucide-cldn.
  * If not, see <https://www.gnu.org/licenses/lgpl-3.0.en.html>.
  */
+export {Icon} from "./Icon.js";
 export * from "./icons/index.js";
