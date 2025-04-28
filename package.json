@@ -22,6 +22,12 @@
   "author": "Cloudnode OÜ",
   "type": "module",
   "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**.js",
+    "dist/**.d.ts"
+  ],
   "scripts": {
     "build": "tsc -p src",
     "build:gen": "tsc -p gen",
