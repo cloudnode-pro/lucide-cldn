@@ -18,6 +18,18 @@ import fs from "fs/promises";
 import path from "node:path";
 import {generateIcon} from "./generateIcon.js";
 
+function formatBytes(bytes: number): string {
+    const units = ['bytes', 'kB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+    if (bytes === 0) return '0 bytes';
+
+    const exponent = Math.floor(Math.log10(Math.abs(bytes)) / 3);
+    const unit = units[Math.min(exponent, units.length - 1)];
+    const value = bytes / Math.pow(1000, exponent);
+
+    const decimals = value >= 10 ? 0 : 1;
+    return `${value.toFixed(decimals)} ${unit}`;
+}
+
 export async function generateIcons() {
     await fs.rm(path.join("src", "icons"), {recursive: true, force: true});
     await fs.mkdir(path.join("src", "icons"), {recursive: true});
@@ -27,17 +39,35 @@ export async function generateIcons() {
         .map(de => path.join(dir, de.name));
 
     const results: string[] = [];
+    let rawSize = 0;
+    let optimisedSize = 0;
 
     const concurrency = 10;
     const queue = files.map(file => () => generateIcon(file));
     const workers = Array.from({length: concurrency}, async () => {
         while (queue.length > 0) {
             const next = queue.shift();
-            if (next != null)
-                results.push(await next());
+            if (next != null) {
+                const {name, raw, optimised} = await next();
+                results.push(name);
+                rawSize += raw;
+                optimisedSize += optimised;
+            }
         }
     });
 
     await Promise.all(workers);
+    const optimisation = Math.round((optimisedSize / rawSize) * 10000) / 100;
+    console.log(`Generated ${results.length} icon${results.length === 1 ? "" : "s"}`);
+    console.log(
+        `${formatBytes(rawSize)} → ${formatBytes(optimisedSize)}`,
+        optimisation > 100
+            ? "\x1b[31m"
+            : optimisation < 100
+            ? "\x1b[32m"
+            : "",
+        optimisation + "%",
+        "\x1b[0m",
+    );
     return results.sort((a, b) => a.localeCompare(b));
 }

@@ -30,12 +30,15 @@ export async function generateIcon(filePath: string) {
         .split("-")
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join("");
-    const svg = (await optimiseSvg(await fs.readFile(filePath, "utf8"))).data;
+    const raw = await fs.readFile(filePath, "utf8");
+    const svg = (await optimiseSvg(raw)).data;
+    if (svg.length > raw.length)
+        console.warn(`\x1b[33m${name}: optimised ${raw.length} → ${svg.length} (${(svg.length / raw.length * 100).toFixed(2)}%)\x1b[0m`);
     await fs.writeFile(
         path.join("src", "icons", name + ".ts"),
         Handlebars.compile(
             await fs.readFile(path.join("gen", "Icon.ts.mustache"), "utf8"),
             {noEscape: true},
         )({name, svg, copyrightStart, copyrightEnd}));
-    return name;
+    return {name, raw: raw.length, optimised: svg.length};
 }

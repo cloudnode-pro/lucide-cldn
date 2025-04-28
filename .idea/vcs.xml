@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$USER_HOME$/Projects/lucide-cldn" vcs="Git" />
+    <mapping directory="$USER_HOME$/Projects/lucide-cldn/lucide" vcs="Git" />
   </component>
 </project>
