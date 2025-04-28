@@ -16,10 +16,23 @@
  */
 import fs from "fs/promises";
 import Handlebars from "handlebars";
+import {exec} from "node:child_process";
 import path from "node:path";
 
 export async function generateReadme() {
     const lucideLicence = await fs.readFile(path.join("lucide", "LICENSE"), "utf8");
+    const lucideVersion = await new Promise<string>((resolve, reject) => {
+        exec(
+            "git describe --tags --always --abbrev=0",
+            {
+                cwd: "lucide",
+            },
+            (error, stdout) => {
+                if (error) reject(error);
+                else resolve(stdout.trim());
+            },
+        );
+    });
     await fs.writeFile(
         "README.md",
         Handlebars.compile(
@@ -27,5 +40,6 @@ export async function generateReadme() {
             {noEscape: true},
         )({
             lucideLicence: lucideLicence.replace(/[\r\n]+$/, ""),
+            lucideVersion,
         }));
 }
