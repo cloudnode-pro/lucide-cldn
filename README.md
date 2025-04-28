@@ -20,7 +20,7 @@
 
 # Lucide @cldn/components
 
-Implementation of the Lucide icon library for [@cldn/components](https://github.com/cloudnode-pro/components).
+Implementation of the Lucide v0.503.0 icon library for [@cldn/components](https://github.com/cloudnode-pro/components).
 
 ## Installation
 
