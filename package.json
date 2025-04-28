@@ -25,7 +25,8 @@
   "scripts": {
     "build": "tsc -p src",
     "build:gen": "tsc -p gen",
-    "gen": "node dist-gen/index.js"
+    "gen": "node dist-gen/index.js",
+    "docs": "typedoc"
   },
   "peerDependencies": {
     "@cldn/components": "^4.1.0"
@@ -33,6 +34,7 @@
   "devDependencies": {
     "@types/node": "^22.15.2",
     "svgo": "^3.3.2",
+    "typedoc": "^0.28.3",
     "typescript": "^5.8.3"
   },
   "dependencies": {

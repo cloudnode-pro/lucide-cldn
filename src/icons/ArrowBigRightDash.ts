@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M5 9V15M9 9H12V5L19 12 12 19V15H9z"/></svg>
+ */
 export class ArrowBigRightDash extends Icon {
     public constructor() {
         super(Icon.from(

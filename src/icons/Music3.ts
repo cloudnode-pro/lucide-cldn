@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="18" r="4"/><path d="M16 18V2"/></svg>
+ */
 export class Music3 extends Icon {
     public constructor() {
         super(Icon.from(

@@ -16,6 +16,9 @@
  */
 import {Icon} from "../Icon.js";
 
+/**
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M18 8 22 12 18 16M2 12H22M6 8 2 12 6 16"/></svg>
+ */
 export class MoveHorizontal extends Icon {
     public constructor() {
         super(Icon.from(
