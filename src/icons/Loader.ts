@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2V6M16.2 7.8 19.1 4.9M18 12H22M16.2 16.2 19.1 19.1M12 18V22M4.9 19.1 7.8 16.2M2 12H6M4.9 4.9 7.8 7.8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2v4m4.2 1.8 2.9-2.9M18 12h4m-5.8 4.2 2.9 2.9M12 18v4m-7.1-2.9 2.9-2.9M2 12h4M4.9 4.9l2.9 2.9"/></svg>
  */
 export class Loader extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2V6M16.2 7.8 19.1 4.9M18 12H22M16.2 16.2 19.1 19.1M12 18V22M4.9 19.1 7.8 16.2M2 12H6M4.9 4.9 7.8 7.8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2v4m4.2 1.8 2.9-2.9M18 12h4m-5.8 4.2 2.9 2.9M12 18v4m-7.1-2.9 2.9-2.9M2 12h4M4.9 4.9l2.9 2.9"/></svg>`
         ).node);
     }
 }

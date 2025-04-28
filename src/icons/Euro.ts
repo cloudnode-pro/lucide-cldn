@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 10H16M4 14H13M19 6A8 8 0 0 0 13.8 4 8 8 0 0 0 6 12 8 8 0 0 0 13.8 20 8 8 0 0 0 19 18"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 10h12M4 14h9m6-8a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2"/></svg>
  */
 export class Euro extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 10H16M4 14H13M19 6A8 8 0 0 0 13.8 4 8 8 0 0 0 6 12 8 8 0 0 0 13.8 20 8 8 0 0 0 19 18"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 10h12M4 14h9m6-8a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4V20M9 4V20M14 4V20M19 4V20M22 6 2 18"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4v16M9 4v16m5-16v16m5-16v16m3-14L2 18"/></svg>
  */
 export class Tally5 extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4V20M9 4V20M14 4V20M19 4V20M22 6 2 18"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4v16M9 4v16m5-16v16m5-16v16m3-14L2 18"/></svg>`
         ).node);
     }
 }

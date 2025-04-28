@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9V6A2 2 0 0 0 18 4H6A2 2 0 0 0 4 6V9"/><path d="M2 16A2 2 0 0 0 4 18H20A2 2 0 0 0 22 16V11A2 2 0 0 0 18 11V12.5L17.5 13H6.5L6 12.5V11A2 2 0 0 0 2 11zM4 18V20M20 18V20M12 4V13"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><path d="M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0zm2 2v2m16-2v2M12 4v9"/></svg>
  */
 export class Sofa extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9V6A2 2 0 0 0 18 4H6A2 2 0 0 0 4 6V9"/><path d="M2 16A2 2 0 0 0 4 18H20A2 2 0 0 0 22 16V11A2 2 0 0 0 18 11V12.5L17.5 13H6.5L6 12.5V11A2 2 0 0 0 2 11zM4 18V20M20 18V20M12 4V13"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><path d="M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0zm2 2v2m16-2v2M12 4v9"/></svg>`
         ).node);
     }
 }

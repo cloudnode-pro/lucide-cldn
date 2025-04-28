@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 17H12C11 17 10 18 9.5 18.9A3 3 0 1 1 2.5 15M9 3.4A4 4 0 0 1 15.5 4.1"/><path d="M6 17 9.1 11.2A3 3 0 0 0 9.1 9.2M20.3 20.3A4 4 0 0 1 18 21M18.6 13A4 4 0 0 1 22 16.4M12 6 12.6 7M2 2 22 22"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 17h-5c-1.09-.02-1.94.92-2.5 1.9A3 3 0 1 1 2.57 15M9 3.4a4 4 0 0 1 6.52.66"/><path d="m6 17 3.1-5.8a2.5 2.5 0 0 0 .057-2.05M20.3 20.3a4 4 0 0 1-2.3.7m.6-8a4 4 0 0 1 3.357 3.414M12 6l.6 1M2 2l20 20"/></svg>
  */
 export class WebhookOff extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 17H12C11 17 10 18 9.5 18.9A3 3 0 1 1 2.5 15M9 3.4A4 4 0 0 1 15.5 4.1"/><path d="M6 17 9.1 11.2A3 3 0 0 0 9.1 9.2M20.3 20.3A4 4 0 0 1 18 21M18.6 13A4 4 0 0 1 22 16.4M12 6 12.6 7M2 2 22 22"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 17h-5c-1.09-.02-1.94.92-2.5 1.9A3 3 0 1 1 2.57 15M9 3.4a4 4 0 0 1 6.52.66"/><path d="m6 17 3.1-5.8a2.5 2.5 0 0 0 .057-2.05M20.3 20.3a4 4 0 0 1-2.3.7m.6-8a4 4 0 0 1 3.357 3.414M12 6l.6 1M2 2l20 20"/></svg>`
         ).node);
     }
 }

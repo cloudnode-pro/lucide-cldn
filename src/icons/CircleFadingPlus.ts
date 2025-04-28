@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 1 19.4 18.8M12 8V16M16 12H8M2.5 8.9A10 10 0 0 0 2 11.9M2.8 16A10 10 0 0 0 5.3 19.4M4.6 5.2 5.6 4.4M8.6 21.4A10 10 0 0 0 16.3 21"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 7.38 16.75M12 8v8m4-4H8M2.5 8.875a10 10 0 0 0-.5 3M2.83 16a10 10 0 0 0 2.43 3.4M4.636 5.235a10 10 0 0 1 .891-.857M8.644 21.42a10 10 0 0 0 7.631-.38"/></svg>
  */
 export class CircleFadingPlus extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 1 19.4 18.8M12 8V16M16 12H8M2.5 8.9A10 10 0 0 0 2 11.9M2.8 16A10 10 0 0 0 5.3 19.4M4.6 5.2 5.6 4.4M8.6 21.4A10 10 0 0 0 16.3 21"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 7.38 16.75M12 8v8m4-4H8M2.5 8.875a10 10 0 0 0-.5 3M2.83 16a10 10 0 0 0 2.43 3.4M4.636 5.235a10 10 0 0 1 .891-.857M8.644 21.42a10 10 0 0 0 7.631-.38"/></svg>`
         ).node);
     }
 }

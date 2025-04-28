@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 20 8.8 17.5 6 18M10 4 8.8 6.5 6 6M14 20 15.3 17.5 18 18M14 4 15.3 6.5 18 6"/><path d="M17 21 14 15H10M17 3 14 9 15.5 12M2 12H8.5L10 9M20 10 18.5 12 20 14"/><path d="M22 12H15.5L14 15M4 10 5.5 12 4 14M7 21 10 15 8.5 12M7 3 10 9H14"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m10 20-1.25-2.5L6 18m4-14L8.75 6.5 6 6m8 14 1.25-2.5L18 18M14 4l1.25 2.5L18 6"/><path d="m17 21-3-6h-4m7-12-3 6 1.5 3M2 12h6.5L10 9m10 1-1.5 2 1.5 2"/><path d="M22 12h-6.5L14 15M4 10l1.5 2L4 14m3 7 3-6-1.5-3M7 3l3 6h4"/></svg>
  */
 export class Snowflake extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 20 8.8 17.5 6 18M10 4 8.8 6.5 6 6M14 20 15.3 17.5 18 18M14 4 15.3 6.5 18 6"/><path d="M17 21 14 15H10M17 3 14 9 15.5 12M2 12H8.5L10 9M20 10 18.5 12 20 14"/><path d="M22 12H15.5L14 15M4 10 5.5 12 4 14M7 21 10 15 8.5 12M7 3 10 9H14"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m10 20-1.25-2.5L6 18m4-14L8.75 6.5 6 6m8 14 1.25-2.5L18 18M14 4l1.25 2.5L18 6"/><path d="m17 21-3-6h-4m7-12-3 6 1.5 3M2 12h6.5L10 9m10 1-1.5 2 1.5 2"/><path d="M22 12h-6.5L14 15M4 10l1.5 2L4 14m3 7 3-6-1.5-3M7 3l3 6h4"/></svg>`
         ).node);
     }
 }

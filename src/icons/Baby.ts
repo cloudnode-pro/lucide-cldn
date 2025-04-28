@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 16Q10.8 16.5 12 16.5C13.2 16.5 13.5 16.3 14 16M15 12"/><path d="M19.4 6.8A9 9 0 0 1 20.8 10.2 2 2 0 0 1 20.8 13.8 9 9 0 0 1 3.2 13.8 2 2 0 0 1 3.2 10.2 9 9 0 0 1 12 3C14 3 15.5 4.1 15.5 5.5S14.6 8 13.5 8Q12.1 8 12 7M9 12"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5m1-4h.01"/><path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1m-3 5h.01"/></svg>
  */
 export class Baby extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 16Q10.8 16.5 12 16.5C13.2 16.5 13.5 16.3 14 16M15 12"/><path d="M19.4 6.8A9 9 0 0 1 20.8 10.2 2 2 0 0 1 20.8 13.8 9 9 0 0 1 3.2 13.8 2 2 0 0 1 3.2 10.2 9 9 0 0 1 12 3C14 3 15.5 4.1 15.5 5.5S14.6 8 13.5 8Q12.1 8 12 7M9 12"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5m1-4h.01"/><path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1m-3 5h.01"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 3H7A2 2 0 0 0 5 5V10A2 2 0 0 1 3 12 2 2 0 0 1 5 14V19Q5.2 20.8 7 21H8M16 21H17A2 2 0 0 0 19 19V14Q19.2 12.2 21 12A2 2 0 0 1 19 10V5A2 2 0 0 0 17 3H16"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1m8 0h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"/></svg>
  */
 export class Braces extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 3H7A2 2 0 0 0 5 5V10A2 2 0 0 1 3 12 2 2 0 0 1 5 14V19Q5.2 20.8 7 21H8M16 21H17A2 2 0 0 0 19 19V14Q19.2 12.2 21 12A2 2 0 0 1 19 10V5A2 2 0 0 0 17 3H16"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1m8 0h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"/></svg>`
         ).node);
     }
 }

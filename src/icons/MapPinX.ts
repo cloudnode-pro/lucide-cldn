@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19.8 11.9 20 10A8 8 0 0 0 4 10C4 15 9.5 20.2 11.4 21.8A1 1 0 0 0 12.6 21.8H12.6"/><circle cx="12" cy="10" r="3"/><path d="M21.5 15.5 16.5 20.5M21.5 20.5 16.5 15.5"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19.752 11.901A7.8 7.8 0 0 0 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0l.09-.077"/><circle cx="12" cy="10" r="3"/><path d="m21.5 15.5-5 5m5 0-5-5"/></svg>
  */
 export class MapPinX extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19.8 11.9 20 10A8 8 0 0 0 4 10C4 15 9.5 20.2 11.4 21.8A1 1 0 0 0 12.6 21.8H12.6"/><circle cx="12" cy="10" r="3"/><path d="M21.5 15.5 16.5 20.5M21.5 20.5 16.5 15.5"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19.752 11.901A7.8 7.8 0 0 0 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0l.09-.077"/><circle cx="12" cy="10" r="3"/><path d="m21.5 15.5-5 5m5 0-5-5"/></svg>`
         ).node);
     }
 }

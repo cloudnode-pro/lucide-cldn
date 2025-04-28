@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 7.6 5 15.8A1 1 0 0 0 5.1 17L6 17.9A1 1 0 0 0 7.2 18L15.1 12"/><path d="M16.5 21.2Q15.1 20 13 20C11 20 9 22.4 7 22S4.2 18.6 5.5 17.5"/><circle cx="16" cy="7" r="5"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12"/><path d="M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2s-2.775-3.369-1.5-4.5"/><circle cx="16" cy="7" r="5"/></svg>
  */
 export class MicVocal extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 7.6 5 15.8A1 1 0 0 0 5.1 17L6 17.9A1 1 0 0 0 7.2 18L15.1 12"/><path d="M16.5 21.2Q15.1 20 13 20C11 20 9 22.4 7 22S4.2 18.6 5.5 17.5"/><circle cx="16" cy="7" r="5"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12"/><path d="M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2s-2.775-3.369-1.5-4.5"/><circle cx="16" cy="7" r="5"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6 22V4A2 2 0 0 1 8 2H16A2 2 0 0 1 18 4V22ZM6 12H4A2 2 0 0 0 2 14V20A2 2 0 0 0 4 22H6M18 9H20A2 2 0 0 1 22 11V20A2 2 0 0 1 20 22H18M10 6H14M10 10H14M10 14H14M10 18H14"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Zm0-10H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2M10 6h4m-4 4h4m-4 4h4m-4 4h4"/></svg>
  */
 export class Building2 extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6 22V4A2 2 0 0 1 8 2H16A2 2 0 0 1 18 4V22ZM6 12H4A2 2 0 0 0 2 14V20A2 2 0 0 0 4 22H6M18 9H20A2 2 0 0 1 22 11V20A2 2 0 0 1 20 22H18M10 6H14M10 10H14M10 14H14M10 18H14"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Zm0-10H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2M10 6h4m-4 4h4m-4 4h4m-4 4h4"/></svg>`
         ).node);
     }
 }

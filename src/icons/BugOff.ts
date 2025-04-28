@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 7.1V6A3 3 0 0 0 9.9 3.9L8 2M14.1 3.9 16 2"/><path d="M22 13H18V11A4 4 0 0 0 14 7H12.7"/><path d="M21 5A4 4 0 0 1 17.5 9M2 2 22 22M7.7 7.7A4 4 0 0 0 6 11V14A6 6 0 0 0 17.1 17.1M12 20V12M6 13H2"/><path d="M3 21A4 4 0 0 1 6.8 17"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 7.13V6a3 3 0 0 0-5.14-2.1L8 2m6.12 1.88L16 2"/><path d="M22 13h-4v-2a4 4 0 0 0-4-4h-1.3"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4M2 2l20 20M7.7 7.7A4 4 0 0 0 6 11v3a6 6 0 0 0 11.13 3.13M12 20v-8m-6 1H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/></svg>
  */
 export class BugOff extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 7.1V6A3 3 0 0 0 9.9 3.9L8 2M14.1 3.9 16 2"/><path d="M22 13H18V11A4 4 0 0 0 14 7H12.7"/><path d="M21 5A4 4 0 0 1 17.5 9M2 2 22 22M7.7 7.7A4 4 0 0 0 6 11V14A6 6 0 0 0 17.1 17.1M12 20V12M6 13H2"/><path d="M3 21A4 4 0 0 1 6.8 17"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 7.13V6a3 3 0 0 0-5.14-2.1L8 2m6.12 1.88L16 2"/><path d="M22 13h-4v-2a4 4 0 0 0-4-4h-1.3"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4M2 2l20 20M7.7 7.7A4 4 0 0 0 6 11v3a6 6 0 0 0 11.13 3.13M12 20v-8m-6 1H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/></svg>`
         ).node);
     }
 }

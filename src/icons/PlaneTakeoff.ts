@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22H22M6.4 17.4 4 17 2 13 3.1 12.5A2 2 0 0 1 4.9 12.5H5.1A2 2 0 0 0 6.9 12.5L8 12 5 6 5.9 5.6A2 2 0 0 1 7.9 5.8L12 8.8A2 2 0 0 0 14.1 8.9L18.3 7A2 2 0 0 1 20 6.7L21 7A1.4 1.4 0 0 1 21.9 9L21.5 9.8Q21 10.5 20.5 10.8L7.4 17.2z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22h20M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.4 2.4 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z"/></svg>
  */
 export class PlaneTakeoff extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22H22M6.4 17.4 4 17 2 13 3.1 12.5A2 2 0 0 1 4.9 12.5H5.1A2 2 0 0 0 6.9 12.5L8 12 5 6 5.9 5.6A2 2 0 0 1 7.9 5.8L12 8.8A2 2 0 0 0 14.1 8.9L18.3 7A2 2 0 0 1 20 6.7L21 7A1.4 1.4 0 0 1 21.9 9L21.5 9.8Q21 10.5 20.5 10.8L7.4 17.2z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22h20M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.4 2.4 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z"/></svg>`
         ).node);
     }
 }

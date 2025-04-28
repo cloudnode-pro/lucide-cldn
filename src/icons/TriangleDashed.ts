@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.2 4.2A2 2 0 0 1 13.8 4.2M14 21H16M15.9 7.7 16.9 9.5M18.8 13 19.8 14.7M21.8 18.2A2 2 0 0 1 20 21M4 21A2 2 0 0 1 2.2 18.2M5.1 13 4.1 14.7M8 21H10M8.1 7.7 7.1 9.5"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.17 4.193a2 2 0 0 1 3.666.013M14 21h2m-.126-13.257 1 1.732m1.975 3.477 1 1.732m1.975 3.496a2 2 0 0 1-1.835 2.824M4.024 21a2 2 0 0 1-1.839-2.839m2.951-5.209-1 1.732M8 21h2M8.102 7.743l-1 1.732"/></svg>
  */
 export class TriangleDashed extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.2 4.2A2 2 0 0 1 13.8 4.2M14 21H16M15.9 7.7 16.9 9.5M18.8 13 19.8 14.7M21.8 18.2A2 2 0 0 1 20 21M4 21A2 2 0 0 1 2.2 18.2M5.1 13 4.1 14.7M8 21H10M8.1 7.7 7.1 9.5"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.17 4.193a2 2 0 0 1 3.666.013M14 21h2m-.126-13.257 1 1.732m1.975 3.477 1 1.732m1.975 3.496a2 2 0 0 1-1.835 2.824M4.024 21a2 2 0 0 1-1.839-2.839m2.951-5.209-1 1.732M8 21h2M8.102 7.743l-1 1.732"/></svg>`
         ).node);
     }
 }

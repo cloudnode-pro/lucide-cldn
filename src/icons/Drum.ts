@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 2 10 10M22 2 14 10"/><ellipse cx="12" cy="9" rx="10" ry="5"/><path d="M7 13.4V21.3M12 14V22M17 13.4V21.3M2 9V17A10 5 0 0 0 22 17V9"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m2 2 8 8m12-8-8 8"/><ellipse cx="12" cy="9" rx="10" ry="5"/><path d="M7 13.4v7.9m5-7.3v8m5-8.6v7.9M2 9v8a10 5 0 0 0 20 0V9"/></svg>
  */
 export class Drum extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 2 10 10M22 2 14 10"/><ellipse cx="12" cy="9" rx="10" ry="5"/><path d="M7 13.4V21.3M12 14V22M17 13.4V21.3M2 9V17A10 5 0 0 0 22 17V9"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m2 2 8 8m12-8-8 8"/><ellipse cx="12" cy="9" rx="10" ry="5"/><path d="M7 13.4v7.9m5-7.3v8m5-8.6v7.9M2 9v8a10 5 0 0 0 20 0V9"/></svg>`
         ).node);
     }
 }

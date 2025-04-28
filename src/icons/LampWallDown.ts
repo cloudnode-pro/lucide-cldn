@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 18.6A1 1 0 0 1 19 20H9A1 1 0 0 1 8 18.6L10 13.6A1 1 0 0 1 11 13H17A1 1 0 0 1 18 13.6zM6 3A2 2 0 0 1 8 5V7A2 2 0 0 1 6 9H5A1 1 0 0 1 4 8V4A1 1 0 0 1 5 3z"/><path d="M8 6H12A2 2 0 0 1 14 8V13"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19.929 18.629A1 1 0 0 1 19 20H9a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 11 13h6a1 1 0 0 1 .928.629zM6 3a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm2 3h4a2 2 0 0 1 2 2v5"/></svg>
  */
 export class LampWallDown extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M20 18.6A1 1 0 0 1 19 20H9A1 1 0 0 1 8 18.6L10 13.6A1 1 0 0 1 11 13H17A1 1 0 0 1 18 13.6zM6 3A2 2 0 0 1 8 5V7A2 2 0 0 1 6 9H5A1 1 0 0 1 4 8V4A1 1 0 0 1 5 3z"/><path d="M8 6H12A2 2 0 0 1 14 8V13"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19.929 18.629A1 1 0 0 1 19 20H9a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 11 13h6a1 1 0 0 1 .928.629zM6 3a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm2 3h4a2 2 0 0 1 2 2v5"/></svg>`
         ).node);
     }
 }

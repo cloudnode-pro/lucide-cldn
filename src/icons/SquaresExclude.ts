@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12V14A2 2 0 0 1 14 16H9A1 1 0 0 0 8 17V20A2 2 0 0 0 10 22H20A2 2 0 0 0 22 20V10A2 2 0 0 0 20 8H20M4 16A2 2 0 0 1 2 14V4A2 2 0 0 1 4 2H14A2 2 0 0 1 16 4V7A1 1 0 0 1 15 8H10A2 2 0 0 0 8 10V12"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12v2a2 2 0 0 1-2 2H9a1 1 0 0 0-1 1v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h0M4 16a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3a1 1 0 0 1-1 1h-5a2 2 0 0 0-2 2v2"/></svg>
  */
 export class SquaresExclude extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12V14A2 2 0 0 1 14 16H9A1 1 0 0 0 8 17V20A2 2 0 0 0 10 22H20A2 2 0 0 0 22 20V10A2 2 0 0 0 20 8H20M4 16A2 2 0 0 1 2 14V4A2 2 0 0 1 4 2H14A2 2 0 0 1 16 4V7A1 1 0 0 1 15 8H10A2 2 0 0 0 8 10V12"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12v2a2 2 0 0 1-2 2H9a1 1 0 0 0-1 1v3a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2h0M4 16a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v3a1 1 0 0 1-1 1h-5a2 2 0 0 0-2 2v2"/></svg>`
         ).node);
     }
 }

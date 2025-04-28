@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5A3 3 0 1 0 6 5.1 4 4 0 0 0 3.5 11 4 4 0 0 0 4 17.5 4 4 0 1 0 12 18ZM12 5A3 3 0 1 1 18 5.1 4 4 0 0 1 20.5 11 4 4 0 0 1 20 17.5 4 4 0 1 1 12 18Z"/><path d="M15 13A5 5 0 0 1 12 9 5 5 0 0 1 9 13M17.6 6.5 18 5.1M6 5.1 6.4 6.5M3.5 10.9 4 10.5M20 10.5 20.4 10.9M6 18A4 4 0 0 1 4 17.5M20 17.5A4 4 0 0 1 18 18"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4m8.599-6.5a3 3 0 0 0 .399-1.375m-11.995 0A3 3 0 0 0 6.401 6.5m-2.924 4.396a4 4 0 0 1 .585-.396m15.876 0a4 4 0 0 1 .585.396M6 18a4 4 0 0 1-1.967-.516m15.934 0A4 4 0 0 1 18 18"/></svg>
  */
 export class Brain extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5A3 3 0 1 0 6 5.1 4 4 0 0 0 3.5 11 4 4 0 0 0 4 17.5 4 4 0 1 0 12 18ZM12 5A3 3 0 1 1 18 5.1 4 4 0 0 1 20.5 11 4 4 0 0 1 20 17.5 4 4 0 1 1 12 18Z"/><path d="M15 13A5 5 0 0 1 12 9 5 5 0 0 1 9 13M17.6 6.5 18 5.1M6 5.1 6.4 6.5M3.5 10.9 4 10.5M20 10.5 20.4 10.9M6 18A4 4 0 0 1 4 17.5M20 17.5A4 4 0 0 1 18 18"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4m8.599-6.5a3 3 0 0 0 .399-1.375m-11.995 0A3 3 0 0 0 6.401 6.5m-2.924 4.396a4 4 0 0 1 .585-.396m15.876 0a4 4 0 0 1 .585.396M6 18a4 4 0 0 1-1.967-.516m15.934 0A4 4 0 0 1 18 18"/></svg>`
         ).node);
     }
 }

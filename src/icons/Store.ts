@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 7 6.4 2.6A2 2 0 0 1 7.8 2H16.2A2 2 0 0 1 17.6 2.6L22 7M4 12V20A2 2 0 0 0 6 22H18A2 2 0 0 0 20 20V12"/><path d="M15 22V18A2 2 0 0 0 13 16H11A2 2 0 0 0 9 18V22M2 7H22M22 7V10A2 2 0 0 1 20 12 3 3 0 0 1 18.4 11.4H17.6A3 3 0 0 1 16 12 3 3 0 0 1 14.4 11.4H13.6A3 3 0 0 1 12 12 3 3 0 0 1 10.4 11.4H9.6A3 3 0 0 1 8 12 3 3 0 0 1 6.4 11.4H5.6A3 3 0 0 1 4 12 2 2 0 0 1 2 10V7"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4M2 7h20m0 0v3a2 2 0 0 1-2 2 2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7"/></svg>
  */
 export class Store extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 7 6.4 2.6A2 2 0 0 1 7.8 2H16.2A2 2 0 0 1 17.6 2.6L22 7M4 12V20A2 2 0 0 0 6 22H18A2 2 0 0 0 20 20V12"/><path d="M15 22V18A2 2 0 0 0 13 16H11A2 2 0 0 0 9 18V22M2 7H22M22 7V10A2 2 0 0 1 20 12 3 3 0 0 1 18.4 11.4H17.6A3 3 0 0 1 16 12 3 3 0 0 1 14.4 11.4H13.6A3 3 0 0 1 12 12 3 3 0 0 1 10.4 11.4H9.6A3 3 0 0 1 8 12 3 3 0 0 1 6.4 11.4H5.6A3 3 0 0 1 4 12 2 2 0 0 1 2 10V7"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4M2 7h20m0 0v3a2 2 0 0 1-2 2 2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7"/></svg>`
         ).node);
     }
 }

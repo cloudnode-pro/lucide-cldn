@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.5 3.1 12 3 10.5 3.1M19.3 6.8A11 11 0 0 0 17.2 4.7M20.9 13.5 21 12 20.9 10.5M17.2 19.3A11 11 0 0 0 19.3 17.2M10.5 20.9 12 21 13.5 20.9M3.5 17.5 2 22 6.5 20.5M3.1 10.5 3 12 3.1 13.5M6.8 4.7A11 11 0 0 0 4.7 6.8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.5 3.1c-.5 0-1-.1-1.5-.1s-1 .1-1.5.1m8.8 3.7a10.5 10.5 0 0 0-2.1-2.1m3.7 8.8c.1-.5.1-1 .1-1.5s-.1-1-.1-1.5m-3.7 8.8a10.5 10.5 0 0 0 2.1-2.1m-8.8 3.7c.5.1 1 .1 1.5.1s1-.1 1.5-.1m-10-3.4L2 22l4.5-1.5m-3.4-10c0 .5-.1 1-.1 1.5s.1 1 .1 1.5m3.7-8.8a10.5 10.5 0 0 0-2.1 2.1"/></svg>
  */
 export class MessageCircleDashed extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.5 3.1 12 3 10.5 3.1M19.3 6.8A11 11 0 0 0 17.2 4.7M20.9 13.5 21 12 20.9 10.5M17.2 19.3A11 11 0 0 0 19.3 17.2M10.5 20.9 12 21 13.5 20.9M3.5 17.5 2 22 6.5 20.5M3.1 10.5 3 12 3.1 13.5M6.8 4.7A11 11 0 0 0 4.7 6.8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13.5 3.1c-.5 0-1-.1-1.5-.1s-1 .1-1.5.1m8.8 3.7a10.5 10.5 0 0 0-2.1-2.1m3.7 8.8c.1-.5.1-1 .1-1.5s-.1-1-.1-1.5m-3.7 8.8a10.5 10.5 0 0 0 2.1-2.1m-8.8 3.7c.5.1 1 .1 1.5.1s1-.1 1.5-.1m-10-3.4L2 22l4.5-1.5m-3.4-10c0 .5-.1 1-.1 1.5s.1 1 .1 1.5m3.7-8.8a10.5 10.5 0 0 0-2.1 2.1"/></svg>`
         ).node);
     }
 }

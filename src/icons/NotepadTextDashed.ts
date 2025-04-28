@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 2V6M12 2V6M16 2V6M16 4H18A2 2 0 0 1 20 6V8M20 12V14M20 18V20A2 2 0 0 1 18 22H17M13 22H11M7 22H6A2 2 0 0 1 4 20V18M4 14V12M4 8V6A2 2 0 0 1 6 4H8M8 10H14M8 14H16M8 18H13"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 2v4m4-4v4m4-4v4m0-2h2a2 2 0 0 1 2 2v2m0 4v2m0 4v2a2 2 0 0 1-2 2h-1m-4 0h-2m-4 0H6a2 2 0 0 1-2-2v-2m0-4v-2m0-4V6a2 2 0 0 1 2-2h2m0 6h6m-6 4h8m-8 4h5"/></svg>
  */
 export class NotepadTextDashed extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 2V6M12 2V6M16 2V6M16 4H18A2 2 0 0 1 20 6V8M20 12V14M20 18V20A2 2 0 0 1 18 22H17M13 22H11M7 22H6A2 2 0 0 1 4 20V18M4 14V12M4 8V6A2 2 0 0 1 6 4H8M8 10H14M8 14H16M8 18H13"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M8 2v4m4-4v4m4-4v4m0-2h2a2 2 0 0 1 2 2v2m0 4v2m0 4v2a2 2 0 0 1-2 2h-1m-4 0h-2m-4 0H6a2 2 0 0 1-2-2v-2m0-4v-2m0-4V6a2 2 0 0 1 2-2h2m0 6h6m-6 4h8m-8 4h5"/></svg>`
         ).node);
     }
 }

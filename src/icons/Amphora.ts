@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 2V7.6Q10 8.3 9.3 8.6A6 6 0 0 0 6 14C6 18 9 21 11 22"/><path d="M10 5H8A2 2 0 0 0 8 9H8.7M14 2V7.6Q14 8.3 14.7 8.6A6 6 0 0 1 18 14C18 18 15 21 13 22"/><path d="M14 5H16A2 2 0 0 1 16 9H15.3M18 22H6M9 2H15"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 2v5.632c0 .424-.272.795-.653.982A6 6 0 0 0 6 14c.006 4 3 7 5 8"/><path d="M10 5H8a2 2 0 0 0 0 4h.68M14 2v5.632c0 .424.272.795.652.982A6 6 0 0 1 18 14c0 4-3 7-5 8"/><path d="M14 5h2a2 2 0 0 1 0 4h-.68M18 22H6M9 2h6"/></svg>
  */
 export class Amphora extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 2V7.6Q10 8.3 9.3 8.6A6 6 0 0 0 6 14C6 18 9 21 11 22"/><path d="M10 5H8A2 2 0 0 0 8 9H8.7M14 2V7.6Q14 8.3 14.7 8.6A6 6 0 0 1 18 14C18 18 15 21 13 22"/><path d="M14 5H16A2 2 0 0 1 16 9H15.3M18 22H6M9 2H15"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 2v5.632c0 .424-.272.795-.653.982A6 6 0 0 0 6 14c.006 4 3 7 5 8"/><path d="M10 5H8a2 2 0 0 0 0 4h.68M14 2v5.632c0 .424.272.795.652.982A6 6 0 0 1 18 14c0 4-3 7-5 8"/><path d="M14 5h2a2 2 0 0 1 0 4h-.68M18 22H6M9 2h6"/></svg>`
         ).node);
     }
 }

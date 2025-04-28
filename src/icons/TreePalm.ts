@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 8C13 5.2 10.5 3 7.5 3S2 5.2 2 8H4L5 7 6 8H10M13 7.1A6 6 0 0 1 16.5 6C19.5 6 22 8.2 22 11H19L18 10 17 11H14"/><path d="M5.9 9.7C3.7 12 3.6 15.2 5.5 17.1L9.8 13 10.5 12.2 11.2 11.5 13.3 9.4C11.3 7.4 8 7.6 6 9.7"/><path d="M11 15.5C11.5 18 10.8 20 10 22H14C16 16.5 13.5 10 13 8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 8c0-2.76-2.46-5-5.5-5S2 5.24 2 8h2l1-1 1 1h4m3-.86A5.82 5.82 0 0 1 16.5 6c3.04 0 5.5 2.24 5.5 5h-3l-1-1-1 1h-3"/><path d="M5.89 9.71c-2.15 2.15-2.3 5.47-.35 7.43l4.24-4.25.7-.7.71-.71 2.12-2.12c-1.95-1.96-5.27-1.8-7.42.35"/><path d="M11 15.5c.5 2.5-.17 4.5-1 6.5h4c2-5.5-.5-12-1-14"/></svg>
  */
 export class TreePalm extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 8C13 5.2 10.5 3 7.5 3S2 5.2 2 8H4L5 7 6 8H10M13 7.1A6 6 0 0 1 16.5 6C19.5 6 22 8.2 22 11H19L18 10 17 11H14"/><path d="M5.9 9.7C3.7 12 3.6 15.2 5.5 17.1L9.8 13 10.5 12.2 11.2 11.5 13.3 9.4C11.3 7.4 8 7.6 6 9.7"/><path d="M11 15.5C11.5 18 10.8 20 10 22H14C16 16.5 13.5 10 13 8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 8c0-2.76-2.46-5-5.5-5S2 5.24 2 8h2l1-1 1 1h4m3-.86A5.82 5.82 0 0 1 16.5 6c3.04 0 5.5 2.24 5.5 5h-3l-1-1-1 1h-3"/><path d="M5.89 9.71c-2.15 2.15-2.3 5.47-.35 7.43l4.24-4.25.7-.7.71-.71 2.12-2.12c-1.95-1.96-5.27-1.8-7.42.35"/><path d="M11 15.5c.5 2.5-.17 4.5-1 6.5h4c2-5.5-.5-12-1-14"/></svg>`
         ).node);
     }
 }

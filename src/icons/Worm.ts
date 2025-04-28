@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19 12 17.5 15M19.6 18.8 22 20M6.5 8.2A1.7 1.7 0 0 1 8.9 10.2L8.3 12.2A6.8 6.8 0 0 0 18.4 20L19 19.6A1 1 0 1 0 16 15.4L15.7 15.7A1.8 1.8 0 0 1 13.1 13.7L13.7 11.7A6.7 6.7 0 0 0 4 3.8L3.2 4.3A1 1 0 1 0 5.8 8.6z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m19 12-1.5 3m2.13 3.81L22 20M6.47 8.23a1.68 1.68 0 0 1 2.44 1.93l-.64 2.08a6.76 6.76 0 0 0 10.16 7.67l.42-.27a1 1 0 1 0-2.73-4.21l-.42.27a1.76 1.76 0 0 1-2.63-1.99l.64-2.08A6.66 6.66 0 0 0 3.94 3.9l-.7.4a1 1 0 1 0 2.55 4.34z"/></svg>
  */
 export class Worm extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M19 12 17.5 15M19.6 18.8 22 20M6.5 8.2A1.7 1.7 0 0 1 8.9 10.2L8.3 12.2A6.8 6.8 0 0 0 18.4 20L19 19.6A1 1 0 1 0 16 15.4L15.7 15.7A1.8 1.8 0 0 1 13.1 13.7L13.7 11.7A6.7 6.7 0 0 0 4 3.8L3.2 4.3A1 1 0 1 0 5.8 8.6z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m19 12-1.5 3m2.13 3.81L22 20M6.47 8.23a1.68 1.68 0 0 1 2.44 1.93l-.64 2.08a6.76 6.76 0 0 0 10.16 7.67l.42-.27a1 1 0 1 0-2.73-4.21l-.42.27a1.76 1.76 0 0 1-2.63-1.99l.64-2.08A6.66 6.66 0 0 0 3.94 3.9l-.7.4a1 1 0 1 0 2.55 4.34z"/></svg>`
         ).node);
     }
 }

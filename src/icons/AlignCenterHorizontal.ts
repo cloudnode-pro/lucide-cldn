@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 12H22M10 16V20A2 2 0 0 1 8 22H6A2 2 0 0 1 4 20V16M10 8V4A2 2 0 0 0 8 2H6A2 2 0 0 0 4 4V8M20 16V17A2 2 0 0 1 18 19H16A2 2 0 0 1 14 17V16M14 8V7Q14.2 5.2 16 5H18A2 2 0 0 1 20 7V8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 12h20m-12 4v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4m6-8V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4m16 8v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-1m0-8V7c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v1"/></svg>
  */
 export class AlignCenterHorizontal extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 12H22M10 16V20A2 2 0 0 1 8 22H6A2 2 0 0 1 4 20V16M10 8V4A2 2 0 0 0 8 2H6A2 2 0 0 0 4 4V8M20 16V17A2 2 0 0 1 18 19H16A2 2 0 0 1 14 17V16M14 8V7Q14.2 5.2 16 5H18A2 2 0 0 1 20 7V8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 12h20m-12 4v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4m6-8V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4m16 8v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-1m0-8V7c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v1"/></svg>`
         ).node);
     }
 }

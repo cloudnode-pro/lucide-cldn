@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21A9 9 0 0 0 21 12H3A9 9 0 0 0 12 21M7 21H17M19.5 12 22 6M16.3 3Q16.8 3.1 17 4.4C17 5.2 16 5.6 16 6.4Q16 7.5 16.7 8M11.3 3C11.5 3.1 12 3.5 12 4.4S11 5.6 11 6.4Q11 7.5 11.7 8M6.3 3C6.5 3.1 7 3.5 7 4.4S6 5.6 6 6.4Q6 7.5 6.7 8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9m-5 0h10m2.5-9L22 6m-5.75-3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.73 1.62m-5.48-5c.27.1.8.53.74 1.36-.05.83-.93 1.2-.98 2.02-.06.78.33 1.24.72 1.62M6.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.74 1.62"/></svg>
  */
 export class Soup extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21A9 9 0 0 0 21 12H3A9 9 0 0 0 12 21M7 21H17M19.5 12 22 6M16.3 3Q16.8 3.1 17 4.4C17 5.2 16 5.6 16 6.4Q16 7.5 16.7 8M11.3 3C11.5 3.1 12 3.5 12 4.4S11 5.6 11 6.4Q11 7.5 11.7 8M6.3 3C6.5 3.1 7 3.5 7 4.4S6 5.6 6 6.4Q6 7.5 6.7 8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9m-5 0h10m2.5-9L22 6m-5.75-3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.73 1.62m-5.48-5c.27.1.8.53.74 1.36-.05.83-.93 1.2-.98 2.02-.06.78.33 1.24.72 1.62M6.25 3c.27.1.8.53.75 1.36-.06.83-.93 1.2-1 2.02-.05.78.34 1.24.74 1.62"/></svg>`
         ).node);
     }
 }

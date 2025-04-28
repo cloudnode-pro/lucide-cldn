@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 13V6A2 2 0 0 0 20 4H4A2 2 0 0 0 2 6V18Q2.2 19.8 4 20H12"/><path d="M22 7 13 12.7A2 2 0 0 1 11 12.7L2 7M16 19 18 21 22 17"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7m14 12 2 2 4-4"/></svg>
  */
 export class MailCheck extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 13V6A2 2 0 0 0 20 4H4A2 2 0 0 0 2 6V18Q2.2 19.8 4 20H12"/><path d="M22 7 13 12.7A2 2 0 0 1 11 12.7L2 7M16 19 18 21 22 17"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7m14 12 2 2 4-4"/></svg>`
         ).node);
     }
 }

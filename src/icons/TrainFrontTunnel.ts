@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22V12A10 10 0 1 1 22 12V22"/><path d="M15 6.8V8.2A3 2.8 0 1 1 9 8.2V6.8M14 15"/><path d="M10 19A4 4 0 0 1 6 15V12A6 6 0 1 1 18 12V15A4 4 0 0 1 14 19ZM9 19 7 22M15 19 17 22"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22V12a10 10 0 1 1 20 0v10"/><path d="M15 6.8v1.4a3 2.8 0 1 1-6 0V6.8m1 8.2h.01M14 15h.01"/><path d="M10 19a4 4 0 0 1-4-4v-3a6 6 0 1 1 12 0v3a4 4 0 0 1-4 4Zm-1 0-2 3m8-3 2 3"/></svg>
  */
 export class TrainFrontTunnel extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22V12A10 10 0 1 1 22 12V22"/><path d="M15 6.8V8.2A3 2.8 0 1 1 9 8.2V6.8M14 15"/><path d="M10 19A4 4 0 0 1 6 15V12A6 6 0 1 1 18 12V15A4 4 0 0 1 14 19ZM9 19 7 22M15 19 17 22"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 22V12a10 10 0 1 1 20 0v10"/><path d="M15 6.8v1.4a3 2.8 0 1 1-6 0V6.8m1 8.2h.01M14 15h.01"/><path d="M10 19a4 4 0 0 1-4-4v-3a6 6 0 1 1 12 0v3a4 4 0 0 1-4 4Zm-1 0-2 3m8-3 2 3"/></svg>`
         ).node);
     }
 }

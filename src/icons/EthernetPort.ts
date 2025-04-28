@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 20 18 17H20A2 2 0 0 0 22 15V6A2 2 0 0 0 20 4H4A2 2 0 0 0 2 6V15A2 2 0 0 0 4 17H6L9 20zM6 8V9M10 8V9M14 8V9M18 8V9"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m15 20 3-3h2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2l3 3zM6 8v1m4-1v1m4-1v1m4-1v1"/></svg>
  */
 export class EthernetPort extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 20 18 17H20A2 2 0 0 0 22 15V6A2 2 0 0 0 20 4H4A2 2 0 0 0 2 6V15A2 2 0 0 0 4 17H6L9 20zM6 8V9M10 8V9M14 8V9M18 8V9"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m15 20 3-3h2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2l3 3zM6 8v1m4-1v1m4-1v1m4-1v1"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2V7M14.8 16A3 3 0 1 1 9.2 16"/><path d="M21 14.6A1 1 0 0 1 20 16H4A1 1 0 0 1 3 14.6L6 7.6A1 1 0 0 1 7 7H17A1 1 0 0 1 18 7.6z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2v5m2.829 8.998a3 3 0 1 1-5.658 0"/><path d="M20.92 14.606A1 1 0 0 1 20 16H4a1 1 0 0 1-.92-1.394l3-7A1 1 0 0 1 7 7h10a1 1 0 0 1 .92.606z"/></svg>
  */
 export class LampCeiling extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2V7M14.8 16A3 3 0 1 1 9.2 16"/><path d="M21 14.6A1 1 0 0 1 20 16H4A1 1 0 0 1 3 14.6L6 7.6A1 1 0 0 1 7 7H17A1 1 0 0 1 18 7.6z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2v5m2.829 8.998a3 3 0 1 1-5.658 0"/><path d="M20.92 14.606A1 1 0 0 1 20 16H4a1 1 0 0 1-.92-1.394l3-7A1 1 0 0 1 7 7h10a1 1 0 0 1 .92.606z"/></svg>`
         ).node);
     }
 }

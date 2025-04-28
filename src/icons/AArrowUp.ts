@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3.5 13H9.5M2 16 6.5 7 11 16M18 16V7M14 11 18 7 22 11"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3.5 13h6M2 16l4.5-9 4.5 9m7 0V7m-4 4 4-4 4 4"/></svg>
  */
 export class AArrowUp extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3.5 13H9.5M2 16 6.5 7 11 16M18 16V7M14 11 18 7 22 11"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3.5 13h6M2 16l4.5-9 4.5 9m7 0V7m-4 4 4-4 4 4"/></svg>`
         ).node);
     }
 }

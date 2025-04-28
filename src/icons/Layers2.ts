@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 13.7A2 2 0 0 1 11 13.7L2.5 9A1 1 0 0 1 2.5 7L11 2.3A2 2 0 0 1 13 2.3L21.5 7A1 1 0 0 1 21.5 9zM20 14.3 21.5 15A1 1 0 0 1 21.5 17L13 21.7A2 2 0 0 1 11 21.7L2.5 17A1 1 0 0 1 2.5 15L4 14.3"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 13.74a2 2 0 0 1-2 0L2.5 8.87a1 1 0 0 1 0-1.74L11 2.26a2 2 0 0 1 2 0l8.5 4.87a1 1 0 0 1 0 1.74zm7 .545 1.5.845a1 1 0 0 1 0 1.74L13 21.74a2 2 0 0 1-2 0l-8.5-4.87a1 1 0 0 1 0-1.74l1.5-.845"/></svg>
  */
 export class Layers2 extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 13.7A2 2 0 0 1 11 13.7L2.5 9A1 1 0 0 1 2.5 7L11 2.3A2 2 0 0 1 13 2.3L21.5 7A1 1 0 0 1 21.5 9zM20 14.3 21.5 15A1 1 0 0 1 21.5 17L13 21.7A2 2 0 0 1 11 21.7L2.5 17A1 1 0 0 1 2.5 15L4 14.3"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M13 13.74a2 2 0 0 1-2 0L2.5 8.87a1 1 0 0 1 0-1.74L11 2.26a2 2 0 0 1 2 0l8.5 4.87a1 1 0 0 1 0 1.74zm7 .545 1.5.845a1 1 0 0 1 0 1.74L13 21.74a2 2 0 0 1-2 0l-8.5-4.87a1 1 0 0 1 0-1.74l1.5-.845"/></svg>`
         ).node);
     }
 }

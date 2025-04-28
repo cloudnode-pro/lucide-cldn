@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 10S5 7 5 2M22 10S19 7 19 2"/><path d="M10 2A8 8 0 0 1 2 10M14 2A8 8 0 0 0 22 10M2 10S4 12 4 15M22 10S20 12 20 15M8 15H16M2 22V21A2 2 0 0 1 4 19H8A2 2 0 0 1 10 21V22M14 22V21A2 2 0 0 1 16 19H20A2 2 0 0 1 22 21V22"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 10s3-3 3-8m17 8s-3-3-3-8"/><path d="M10 2c0 4.4-3.6 8-8 8m12-8c0 4.4 3.6 8 8 8M2 10s2 2 2 5m18-5s-2 2-2 5M8 15h8M2 22v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1m4 0v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1"/></svg>
  */
 export class Theater extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 10S5 7 5 2M22 10S19 7 19 2"/><path d="M10 2A8 8 0 0 1 2 10M14 2A8 8 0 0 0 22 10M2 10S4 12 4 15M22 10S20 12 20 15M8 15H16M2 22V21A2 2 0 0 1 4 19H8A2 2 0 0 1 10 21V22M14 22V21A2 2 0 0 1 16 19H20A2 2 0 0 1 22 21V22"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 10s3-3 3-8m17 8s-3-3-3-8"/><path d="M10 2c0 4.4-3.6 8-8 8m12-8c0 4.4 3.6 8 8 8M2 10s2 2 2 5m18-5s-2 2-2 5M8 15h8M2 22v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1m4 0v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 6 18 10M17 3H21V7M21 3 13.3 10.8"/><circle cx="9" cy="15" r="6"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m14 6 4 4m-1-7h4v4m0-4-7.75 7.75"/><circle cx="9" cy="15" r="6"/></svg>
  */
 export class MarsStroke extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 6 18 10M17 3H21V7M21 3 13.3 10.8"/><circle cx="9" cy="15" r="6"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m14 6 4 4m-1-7h4v4m0-4-7.75 7.75"/><circle cx="9" cy="15" r="6"/></svg>`
         ).node);
     }
 }

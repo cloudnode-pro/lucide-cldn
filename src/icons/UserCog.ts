@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 15H6A4 4 0 0 0 2 19V21M14.3 16.5 15.3 16.1M15.2 13.9 14.3 13.5M16.9 12.2 16.5 11.3M16.9 17.8 16.5 18.7M19.1 12.2 19.5 11.3M19.5 18.7 19.1 17.7M20.8 13.9 21.7 13.5M20.8 16.1 21.7 16.5"/><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 15H6a4 4 0 0 0-4 4v2m12.305-4.47.923-.382m0-2.296-.923-.383m2.547-1.241-.383-.923m.383 6.467-.383.924m2.679-6.468.383-.923m-.001 7.391-.382-.924m1.624-3.92.924-.383m-.924 2.679.924.383"/><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/></svg>
  */
 export class UserCog extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 15H6A4 4 0 0 0 2 19V21M14.3 16.5 15.3 16.1M15.2 13.9 14.3 13.5M16.9 12.2 16.5 11.3M16.9 17.8 16.5 18.7M19.1 12.2 19.5 11.3M19.5 18.7 19.1 17.7M20.8 13.9 21.7 13.5M20.8 16.1 21.7 16.5"/><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 15H6a4 4 0 0 0-4 4v2m12.305-4.47.923-.382m0-2.296-.923-.383m2.547-1.241-.383-.923m.383 6.467-.383.924m2.679-6.468.383-.923m-.001 7.391-.382-.924m1.624-3.92.924-.383m-.924 2.679.924.383"/><circle cx="18" cy="15" r="3"/><circle cx="9" cy="7" r="4"/></svg>`
         ).node);
     }
 }

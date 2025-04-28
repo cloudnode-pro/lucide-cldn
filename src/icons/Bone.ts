@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 10C17.7 9.3 18.7 10 19.5 10A2.5 2.5 0 1 0 19.5 5L19 4.5A2.5 2.5 0 1 0 14 4.5C14 5.3 14.7 6.3 14 7L7 14C6.3 14.7 5.3 14 4.5 14A2.5 2.5 0 0 0 4.5 19Q5 19 5 19.5A2.5 2.5 0 1 0 10 19.5C10 18.7 9.3 17.7 10 17Z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"/></svg>
  */
 export class Bone extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 10C17.7 9.3 18.7 10 19.5 10A2.5 2.5 0 1 0 19.5 5L19 4.5A2.5 2.5 0 1 0 14 4.5C14 5.3 14.7 6.3 14 7L7 14C6.3 14.7 5.3 14 4.5 14A2.5 2.5 0 0 0 4.5 19Q5 19 5 19.5A2.5 2.5 0 1 0 10 19.5C10 18.7 9.3 17.7 10 17Z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 11 21 6V18L3 14zM11.6 16.8A3 3 0 1 1 5.8 15.2"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 14zm8.6 5.8a3 3 0 1 1-5.8-1.6"/></svg>
  */
 export class Megaphone extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 11 21 6V18L3 14zM11.6 16.8A3 3 0 1 1 5.8 15.2"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 14zm8.6 5.8a3 3 0 1 1-5.8-1.6"/></svg>`
         ).node);
     }
 }

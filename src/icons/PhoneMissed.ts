@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><line x1="22" x2="16" y1="2" y2="8"/><line x1="16" x2="22" y1="2" y2="8"/><path d="M22 17V20A2 2 0 0 1 19.8 22 20 20 0 0 1 11.2 18.8 20 20 0 0 1 5.2 12.9 20 20 0 0 1 2.2 4.2 2 2 0 0 1 4.1 2H7.1A2 2 0 0 1 9.1 3.7L9.7 6.5A2 2 0 0 1 9.4 8.6L8 10A16 16 0 0 0 14 16L15.4 14.6A2 2 0 0 1 17.4 14.2L20.4 14.9A2 2 0 0 1 22 16.9"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m22 2-6 6m0-6 6 6m0 8.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.8 12.8 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.8 12.8 0 0 0 2.81.7A2 2 0 0 1 22 16.92"/></svg>
  */
 export class PhoneMissed extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><line x1="22" x2="16" y1="2" y2="8"/><line x1="16" x2="22" y1="2" y2="8"/><path d="M22 17V20A2 2 0 0 1 19.8 22 20 20 0 0 1 11.2 18.8 20 20 0 0 1 5.2 12.9 20 20 0 0 1 2.2 4.2 2 2 0 0 1 4.1 2H7.1A2 2 0 0 1 9.1 3.7L9.7 6.5A2 2 0 0 1 9.4 8.6L8 10A16 16 0 0 0 14 16L15.4 14.6A2 2 0 0 1 17.4 14.2L20.4 14.9A2 2 0 0 1 22 16.9"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m22 2-6 6m0-6 6 6m0 8.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.8 12.8 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.8 12.8 0 0 0 2.81.7A2 2 0 0 1 22 16.92"/></svg>`
         ).node);
     }
 }

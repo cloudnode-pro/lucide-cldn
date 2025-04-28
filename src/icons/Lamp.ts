@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12V18M4 10.6A1 1 0 0 0 5 12H19A1 1 0 0 0 20 10.6L16.7 3.2A2 2 0 0 0 15 2H9A2 2 0 0 0 7.2 3.2ZM8 20A2 2 0 0 1 10 18H14A2 2 0 0 1 16 20V21A1 1 0 0 1 15 22H9A1 1 0 0 1 8 21z"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12v6m-7.923-7.385A1 1 0 0 0 5 12h14a1 1 0 0 0 .923-1.385l-3.077-7.384A2 2 0 0 0 15 2H9a2 2 0 0 0-1.846 1.23ZM8 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1z"/></svg>
  */
 export class Lamp extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12V18M4 10.6A1 1 0 0 0 5 12H19A1 1 0 0 0 20 10.6L16.7 3.2A2 2 0 0 0 15 2H9A2 2 0 0 0 7.2 3.2ZM8 20A2 2 0 0 1 10 18H14A2 2 0 0 1 16 20V21A1 1 0 0 1 15 22H9A1 1 0 0 1 8 21z"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12v6m-7.923-7.385A1 1 0 0 0 5 12h14a1 1 0 0 0 .923-1.385l-3.077-7.384A2 2 0 0 0 15 2H9a2 2 0 0 0-1.846 1.23ZM8 20a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1z"/></svg>`
         ).node);
     }
 }

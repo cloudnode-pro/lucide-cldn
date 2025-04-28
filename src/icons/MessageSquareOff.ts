@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15V5A2 2 0 0 0 19 3H9M2 2 22 22M3.6 3.6Q3 4.1 3 5V21L7 17H17"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15V5a2 2 0 0 0-2-2H9M2 2l20 20M3.6 3.6c-.4.3-.6.8-.6 1.4v16l4-4h10"/></svg>
  */
 export class MessageSquareOff extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15V5A2 2 0 0 0 19 3H9M2 2 22 22M3.6 3.6Q3 4.1 3 5V21L7 17H17"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15V5a2 2 0 0 0-2-2H9M2 2l20 20M3.6 3.6c-.4.3-.6.8-.6 1.4v16l4-4h10"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4.6 13.1 10.4 10C12.3 8.9 15.2 11.7 14 13.6L10.9 19.4C8.8 23.2.8 15.2 4.6 13.1M10.5 9.5 9.5 7.2Q9.1 6.1 8 6H4.5C2.8 6 2 6.5 2 8.5A8 8 0 0 0 4 13.3M8 6C8 4.5 8.2 2 6 2 4 2 3.5 4.2 3.5 6M14.5 13.5 16.8 14.5Q17.9 14.9 18 16V19.5C18 21.2 17.5 22 15.5 22A8 8 0 0 1 10.7 20M18 16C19.6 16 22 15.8 22 18 22 20 19.8 20.5 18 20.5"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m4.6 13.11 5.79-3.21c1.89-1.05 4.79 1.78 3.71 3.71l-3.22 5.81C8.8 23.16.79 15.23 4.6 13.11m5.9-3.61-1-2.29C9.2 6.48 8.8 6 8 6H4.5C2.79 6 2 6.5 2 8.5a7.7 7.7 0 0 0 2 4.83M8 6c0-1.55.24-4-2-4-2 0-2.5 2.17-2.5 4m11 7.5 2.29 1c.73.3 1.21.7 1.21 1.5v3.5c0 1.71-.5 2.5-2.5 2.5a7.7 7.7 0 0 1-4.83-2M18 16c1.55 0 4-.24 4 2 0 2-2.17 2.5-4 2.5"/></svg>
  */
 export class Croissant extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M4.6 13.1 10.4 10C12.3 8.9 15.2 11.7 14 13.6L10.9 19.4C8.8 23.2.8 15.2 4.6 13.1M10.5 9.5 9.5 7.2Q9.1 6.1 8 6H4.5C2.8 6 2 6.5 2 8.5A8 8 0 0 0 4 13.3M8 6C8 4.5 8.2 2 6 2 4 2 3.5 4.2 3.5 6M14.5 13.5 16.8 14.5Q17.9 14.9 18 16V19.5C18 21.2 17.5 22 15.5 22A8 8 0 0 1 10.7 20M18 16C19.6 16 22 15.8 22 18 22 20 19.8 20.5 18 20.5"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m4.6 13.11 5.79-3.21c1.89-1.05 4.79 1.78 3.71 3.71l-3.22 5.81C8.8 23.16.79 15.23 4.6 13.11m5.9-3.61-1-2.29C9.2 6.48 8.8 6 8 6H4.5C2.79 6 2 6.5 2 8.5a7.7 7.7 0 0 0 2 4.83M8 6c0-1.55.24-4-2-4-2 0-2.5 2.17-2.5 4m11 7.5 2.29 1c.73.3 1.21.7 1.21 1.5v3.5c0 1.71-.5 2.5-2.5 2.5a7.7 7.7 0 0 1-4.83-2M18 16c1.55 0 4-.24 4 2 0 2-2.17 2.5-4 2.5"/></svg>`
         ).node);
     }
 }

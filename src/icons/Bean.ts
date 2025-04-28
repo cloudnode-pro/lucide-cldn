@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.2 6.6A5 5 0 0 1 9 9 5 5 0 0 1 6.6 10.2 6 6 0 0 0 8 22 14 14 0 0 0 22 8 6 6 0 0 0 10.2 6.6"/><path d="M5.3 10.6A4 4 0 1 0 10.6 5.3"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.165 6.598C9.954 7.478 9.64 8.36 9 9s-1.521.954-2.402 1.165A6 6 0 0 0 8 22c7.732 0 14-6.268 14-14a6 6 0 0 0-11.835-1.402"/><path d="M5.341 10.62a4 4 0 1 0 5.279-5.28"/></svg>
  */
 export class Bean extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.2 6.6A5 5 0 0 1 9 9 5 5 0 0 1 6.6 10.2 6 6 0 0 0 8 22 14 14 0 0 0 22 8 6 6 0 0 0 10.2 6.6"/><path d="M5.3 10.6A4 4 0 1 0 10.6 5.3"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10.165 6.598C9.954 7.478 9.64 8.36 9 9s-1.521.954-2.402 1.165A6 6 0 0 0 8 22c7.732 0 14-6.268 14-14a6 6 0 0 0-11.835-1.402"/><path d="M5.341 10.62a4 4 0 1 0 5.279-5.28"/></svg>`
         ).node);
     }
 }

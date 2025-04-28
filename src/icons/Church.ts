@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 9H14M12 7V12M14 22V18A2 2 0 0 0 10 18V22"/><path d="M18 22V5.6A1 1 0 0 0 17.4 4.7L13 2.4A2 2 0 0 0 11 2.4L6.6 4.7A1 1 0 0 0 6 5.7V22"/><path d="M18 7 21.4 8.7A1 1 0 0 1 22 9.7V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20V9.6A1 1 0 0 1 2.6 8.7L6 7"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 9h4m-2-2v5m2 10v-4a2 2 0 0 0-4 0v4"/><path d="M18 22V5.618a1 1 0 0 0-.553-.894l-4.553-2.277a2 2 0 0 0-1.788 0L6.553 4.724A1 1 0 0 0 6 5.618V22"/><path d="m18 7 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.618a1 1 0 0 1 .553-.894L6 7"/></svg>
  */
 export class Church extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 9H14M12 7V12M14 22V18A2 2 0 0 0 10 18V22"/><path d="M18 22V5.6A1 1 0 0 0 17.4 4.7L13 2.4A2 2 0 0 0 11 2.4L6.6 4.7A1 1 0 0 0 6 5.7V22"/><path d="M18 7 21.4 8.7A1 1 0 0 1 22 9.7V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20V9.6A1 1 0 0 1 2.6 8.7L6 7"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 9h4m-2-2v5m2 10v-4a2 2 0 0 0-4 0v4"/><path d="M18 22V5.618a1 1 0 0 0-.553-.894l-4.553-2.277a2 2 0 0 0-1.788 0L6.553 4.724A1 1 0 0 0 6 5.618V22"/><path d="m18 7 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.618a1 1 0 0 1 .553-.894L6 7"/></svg>`
         ).node);
     }
 }

@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="11.5" cy="12.5" r="3.5"/><path d="M3 8C3 4.5 5.5 2 9.5 2 14.5 2 14.3 5 17 7S22 9 22 13Q21.9 19.6 15 19.5C12.5 19.5 12.5 22 9 22S2 20 2 16.5C2 13.5 3.5 13.5 3.5 11.5 3.5 10 3 9 3 8"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="11.5" cy="12.5" r="3.5"/><path d="M3 8c0-3.5 2.5-6 6.5-6 5 0 4.83 3 7.5 5s5 2 5 6c0 4.5-2.5 6.5-7 6.5-2.5 0-2.5 2.5-6 2.5s-7-2-7-5.5c0-3 1.5-3 1.5-5C3.5 10 3 9 3 8"/></svg>
  */
 export class EggFried extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="11.5" cy="12.5" r="3.5"/><path d="M3 8C3 4.5 5.5 2 9.5 2 14.5 2 14.3 5 17 7S22 9 22 13Q21.9 19.6 15 19.5C12.5 19.5 12.5 22 9 22S2 20 2 16.5C2 13.5 3.5 13.5 3.5 11.5 3.5 10 3 9 3 8"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="11.5" cy="12.5" r="3.5"/><path d="M3 8c0-3.5 2.5-6 6.5-6 5 0 4.83 3 7.5 5s5 2 5 6c0 4.5-2.5 6.5-7 6.5-2.5 0-2.5 2.5-6 2.5s-7-2-7-5.5c0-3 1.5-3 1.5-5C3.5 10 3 9 3 8"/></svg>`
         ).node);
     }
 }

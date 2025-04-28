@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6.3 20.3A2.4 2.4 0 0 0 9.7 20.3L12 18 6 12 3.7 14.3A2.4 2.4 0 0 0 3.7 17.7ZM2 22 5 19M7.5 13.5 10 11M10.5 16.5 13 14M18 3 14 7H20L16 11"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4ZM2 22l3-3m2.5-5.5L10 11m.5 5.5L13 14m5-11-4 4h6l-4 4"/></svg>
  */
 export class PlugZap extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6.3 20.3A2.4 2.4 0 0 0 9.7 20.3L12 18 6 12 3.7 14.3A2.4 2.4 0 0 0 3.7 17.7ZM2 22 5 19M7.5 13.5 10 11M10.5 16.5 13 14M18 3 14 7H20L16 11"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4ZM2 22l3-3m2.5-5.5L10 11m.5 5.5L13 14m5-11-4 4h6l-4 4"/></svg>`
         ).node);
     }
 }
