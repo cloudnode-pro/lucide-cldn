@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 14v-4"/><rect width="16" height="12" x="2" y="6" rx="2"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 4v16H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><circle cx="14" cy="12" r="8"/></svg>
  */
-export class Battery extends Icon {
+export class RectangleCircle extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M22 14v-4"/><rect width="16" height="12" x="2" y="6" rx="2"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M14 4v16H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><circle cx="14" cy="12" r="8"/></svg>`
         ).node);
     }
 }
