@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 9v6m3.5-8H16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2.5m8.5-6v2M6.5 17H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2.5m.5 5h6"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 9v6m2.543-9H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.605M22 14v-4M7 12h6m-5.394 6H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.606"/></svg>
  */
 export class BatteryPlus extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 9v6m3.5-8H16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2.5m8.5-6v2M6.5 17H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2.5m.5 5h6"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 9v6m2.543-9H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.605M22 14v-4M7 12h6m-5.394 6H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.606"/></svg>`
         ).node);
     }
 }

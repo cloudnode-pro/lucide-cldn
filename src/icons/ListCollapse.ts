@@ -17,12 +17,12 @@
 import {Icon} from "../Icon.js";
 
 /**
- * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m3 10 2.5-2.5L3 5m0 14 2.5-2.5L3 14m7-8h11m-11 6h11m-11 6h11"/></svg>
+ * <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 12h11m-11 6h11M10 6h11M3 10l3-3-3-3m0 16 3-3-3-3"/></svg>
  */
 export class ListCollapse extends Icon {
     public constructor() {
         super(Icon.from(
-            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="m3 10 2.5-2.5L3 5m0 14 2.5-2.5L3 14m7-8h11m-11 6h11m-11 6h11"/></svg>`
+            `<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M10 12h11m-11 6h11M10 6h11M3 10l3-3-3-3m0 16 3-3-3-3"/></svg>`
         ).node);
     }
 }
